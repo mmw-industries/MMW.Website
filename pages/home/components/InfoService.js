@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import React from "react";
 
-function InfoGasMischAnalyse() {
+function InfoService() {
     return (
         <section
             id="content-6"
@@ -13,7 +13,7 @@ function InfoGasMischAnalyse() {
                         <div className="col-lg-10 col-xl-8">
                             <div className="section-title title-01 mb-70">
                                 <h2 className="h2-md">
-                                    Gasverfahrenstechnik - Prozessanalytik
+                                    Servicedienstleistungen
                                 </h2>
                             </div>
                         </div>
@@ -26,32 +26,36 @@ function InfoGasMischAnalyse() {
                                 <ul className="simple-list">
                                     <li className="list-item">
                                         <p className="p-lg">
-                                            Gasmischer
+                                            Planung und Entwicklung
                                         </p>
                                     </li>
                                     <li className="list-item">
                                         <p className="p-lg">
-                                            Gasanalysatoren
+                                            Reparaturen, Wartungen, Kalibrierungen
+                                        </p>
+                                        <p style={{fontSize: 11, marginTop: -15}}
+                                           className="txt-400">
+                                            Sehr gerne auch bei Ihnen im Haus.
                                         </p>
                                     </li>
                                     <li className="list-item">
                                         <p className="p-lg">
-                                            Dichtheitsprüfung für Verpackungen
+                                            Wartungsmonitoring
                                         </p>
                                     </li>
                                     <li className="list-item">
                                         <p className="p-lg">
-                                            Gasfilter
+                                            Montagen und Inbetriebnahmen
                                         </p>
                                     </li>
                                     <li className="list-item">
                                         <p className="p-lg">
-                                            Gas-Dosierventile
+                                            Belastungs- und Dichtheitsprüfungen
                                         </p>
                                     </li>
                                     <li className="list-item">
                                         <p className="p-lg">
-                                            Feuchtemessgeräte
+                                            Vorort Analysen
                                         </p>
                                     </li>
                                 </ul>
@@ -66,8 +70,8 @@ function InfoGasMischAnalyse() {
                     <div className="col-md-6 col-lg-6">
                         <div className="img-block right-column wow fadeInLeft">
                             <img
-                                className="img-fluid"
-                                src="/images/Bild_Fabrik_MAP.png"
+                                className="img-fluid shadow-lg rounded-3"
+                                src="/images/factory-worker-service.jpg"
                                 alt="content-image"
                             />
                         </div>
@@ -78,4 +82,4 @@ function InfoGasMischAnalyse() {
     )
 }
 
-export default InfoGasMischAnalyse;
+export default InfoService;

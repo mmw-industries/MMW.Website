@@ -19,22 +19,38 @@ function Hero() {
                 <div className="row d-flex align-items-center">
                     <div className="col-lg-6">
                         <div className="hero-3-txt white-color">
-                            <h2 className="h2-lg wow fadeInUp">
-                                MapQS - Die neue Dimension in der Qualitätssicherung
-                            </h2>
-                            <p className="p-xl wow fadeInUp">
-                                Noch die war die digitale Dokumentation in der Qualitätssicherung
-                                so einfach und effizient wie mit dem MapQS-System von MMW Analytics Solutions
-                            </p>
-                            <div className="btns-group mb-30 wow fadeInUp">
-                                <a
-                                    href="/products/mapqs"
-                                    className="btn btn-blue tra-white-hover mr-15"
-                                >
-                                    MapQS - Mehr erfahren
-                                </a>
-                                <VideoWithBtn defText="See how it works" id="7e90gBu4pas"/>
-                            </div>
+                            <h3 className="h3-lg wow fadeInUp">
+                                MMW Analytics Solutions ihr Spezialist für:
+                            </h3>
+                            <ul className="simple-list pt-50 pb-50">
+                                <li>
+                                    <a href="/products/mapqs">
+                                        <p className="p-lg m-1">
+                                            MapQS - Die neue Dimension in der Qualitätssicherung
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <p className="p-lg m-1">
+                                        Gasverfahrenstechnik - Prozessanalytik
+                                    </p>
+                                </li>
+                                <li>
+                                    <p className="p-lg m-1">
+                                        Gassicherheitstechnik
+                                    </p>
+                                </li>
+                                <li>
+                                    <p className="p-lg m-1">
+                                        Servicedienstleistungen
+                                    </p>
+                                </li>
+                                <li>
+                                    <p className="p-lg m-1">
+                                        individuelle Softwareentwicklung
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div className="col-lg-6">

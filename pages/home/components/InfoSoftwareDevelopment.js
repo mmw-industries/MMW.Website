@@ -1,45 +1,42 @@
-function ContentXYZ() {
+import Link from "next/dist/client/link";
+
+function InfoSoftwareDevelopment() {
     return (
         <section
             id="content-1"
-            className="content-1 pb-60 bg-whitesmoke content-section division"
+            className="content-1 pb-60 pt-60 bg-whitesmoke content-section division"
         >
             <div className="container">
                 <div className="row d-flex align-items-center">
-                    {/* TEXT BLOCK */}
                     <div className="col-md-7 col-lg-6 order-last order-md-2">
                         <div className="txt-block left-column wow fadeInRight">
-                            {/* Section ID */}
-                            <span className="section-id txt-upcase">Extremely Flexible</span>
-                            {/* Title */}
+                            <span className="section-id txt-upcase">INNOVATIV | ZUKUNFTSSICHER | INDIVIDUELL</span>
                             <h2 className="h2-xs">
-                                Organize your business fast &amp; easily
+                                SOFTWARE ENTWICKLUNG
                             </h2>
-                            {/* List */}
                             <ul className="simple-list">
                                 <li className="list-item">
                                     <p className="p-lg">
-                                        Fringilla risus, luctus mauris orci auctor euismod iaculis
-                                        luctus magna purus pretium ligula purus undo quaerat tempor
-                                        sapien rutrum mauris quaerat ultrice
+                                        Mit unseren individuell entwickelten Softwarelösungen verfügt MMW Analytics
+                                        Solutions über jahrzehntelanges Know-how im Bereich der Softwareentwicklung aus
+                                        der Metall-,
+                                        Multimedia- und Automobilindustrie.
                                     </p>
                                 </li>
                                 <li className="list-item">
                                     <p className="p-lg">
-                                        Quaerat sodales sapien euismod purus blandit
-                                    </p>
-                                </li>
-                                <li className="list-item">
-                                    <p className="p-lg">
-                                        Nemo ipsam egestas volute turpis dolores undo ultrice
-                                        aliquam quaerat at sodales sapien purus
+                                        Unsere Lösungen für Ihre Zufriedenheit und Ihren Erfolg, denn wir schauen
+                                        innovativ in die Zukunft.
                                     </p>
                                 </li>
                             </ul>
+                            <Link href="/contacts">
+                                <a className="btn btn-blue tra-grey-hover mt-10">
+                                    Jetzt mehr erfahren
+                                </a>
+                            </Link>
                         </div>
                     </div>
-                    {/* END TEXT BLOCK */}
-                    {/* IMAGE BLOCK */}
                     <div className="col-md-5 col-lg-6 order-first order-md-2">
                         <div className="rel img-block right-column wow fadeInLeft">
                             <img
@@ -50,11 +47,9 @@ function ContentXYZ() {
                         </div>
                     </div>
                 </div>
-                {/* End row */}
             </div>
-            {/* End container */}
         </section>
     )
 }
 
-export default ContentXYZ;
+export default InfoSoftwareDevelopment;

@@ -19,7 +19,7 @@ function Content1() {
                     </div>
                 </div>
                 <div className="fbox-8-wrapper text-center">
-                    <div className="row row-cols-1 row-cols-md-2">
+                    <div className="row row-cols-1 row-cols-md-3">
                         <div className="col wow fadeInLeft">
                             <div className="wow fadeInUp">
                                 <div className="fbox-5">
@@ -32,7 +32,7 @@ function Content1() {
                                 <h4 className="h5-md">Lebensmittel Verpackungsprozesse</h4>
                             </div>
                         </div>
-                        <div className="col wow fadeInRight">
+                        <div className="col wow fadeInUp">
                             <div className="wow fadeInUp">
                                 <div className="fbox-5">
                                     <img
@@ -42,6 +42,18 @@ function Content1() {
                                     />
                                 </div>
                                 <h4 className="h5-md">Industrielles Schutzgasschweißen</h4>
+                            </div>
+                        </div>
+                        <div className="col wow fadeInRight">
+                            <div className="wow fadeInUp">
+                                <div className="fbox-5">
+                                    <img
+                                        className="img-fluid shadow-lg rounded-3"
+                                        src="/images/industries/welding.jpg"
+                                        alt="feature-icon"
+                                    />
+                                </div>
+                                <h4 className="h5-md">Prozessanalytik</h4>
                             </div>
                         </div>
                     </div>

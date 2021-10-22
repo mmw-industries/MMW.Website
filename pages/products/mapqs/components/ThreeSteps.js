@@ -65,7 +65,7 @@ function ThreeSteps() {
                                 </div>
                                 <h5 className="h5-md">Auswertung</h5>
                                 <p className="p-lg">
-                                    Liveansicht sowie Messdatenauswertung einfach und unkompliziert über
+                                    Die Liveansicht sowie Messdatenauswertung ist einfach und unkompliziert über
                                     jeden modernen Webbrowser möglich.
                                 </p>
                             </div>

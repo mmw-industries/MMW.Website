@@ -15,7 +15,7 @@ function Hero() {
                                 so einfach und effizient wie mit dem MapQS-System von MMW Analytics Solutions
                             </p>
                             <div className="btns-group mb-30 wow fadeInUp">
-                                <VideoWithBtn defText="See how it works" id="7e90gBu4pas"/>
+                                {/*<VideoWithBtn defText="See how it works" id="7e90gBu4pas"/>*/}
                             </div>
                         </div>
                     </div>

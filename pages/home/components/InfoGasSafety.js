@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/dist/client/link";
 
 function InfoGasSafety() {
     return (
@@ -17,6 +18,8 @@ function InfoGasSafety() {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-6 col-lg-1">
+                    </div>
                     <div className="col-md-6 col-lg-6">
                         <div className="img-block right-column wow fadeInLeft">
                             <img
@@ -26,10 +29,15 @@ function InfoGasSafety() {
                             />
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-6">
+                    <div className="col-md-6 col-lg-5">
                         <div className="txt-block left-column wow fadeInRight">
                             <div className="txt-box">
                                 <ul className="simple-list">
+                                    <li className="list-item">
+                                        <p className="p-lg">
+                                            Gasaufbereitung
+                                        </p>
+                                    </li>
                                     <li className="list-item">
                                         <p className="p-lg">
                                             Sicherheitseinrichtungen
@@ -61,6 +69,11 @@ function InfoGasSafety() {
                                         </p>
                                     </li>
                                 </ul>
+                                <Link href="/contacts">
+                                    <a className="btn btn-blue tra-grey-hover mt-10">
+                                        Jetzt mehr erfahren
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,8 @@ function Devices() {
                                 Produktübersicht
                             </h2>
                             <p className="p-xl">
-                                MMW Analytics Solutions bietet für fast jeden Anwendungsfall die richtigen Produkte
+                                MMW Analytics Solutions bietet für fast jeden
+                                Anwendungsfall <br/> die für Sie optimalen Produkte
                             </p>
                         </div>
                     </div>

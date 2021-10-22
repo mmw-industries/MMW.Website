@@ -10,16 +10,29 @@ function LastContent() {
                             <div className="col-lg-7 col-lg-8">
                                 <div className="cta-4-txt">
                                     <h4 className="h4-lg">
-                                       Noch Fragen oder bla bla bla :D
+                                       Wir freuen uns über Ihre Konktaktaufnahme
                                     </h4>
                                 </div>
                             </div>
                             <div className="col-lg-4">
                                 <div className="text-end">
                                     <div className="cta-4-btn text-center">
-                                        <Link href="/pricing">
-                                            <a className="btn btn-blue tra-grey-hover">
-                                                Kontakt aufnehmen
+                                        <p style={{paddingTop: 10}}>
+                                            <b>
+                                                Tel.:
+                                            </b>
+                                            <a href="tel:+43225620442"
+                                               style={{color: 'darkblue', marginLeft: 10}}
+                                            >
+                                                <b>
+                                                    +43 (0)2256 20442
+                                                </b>
+                                            </a>
+                                        </p>
+                                        <p>oder über das</p>
+                                        <Link href="/contacts">
+                                            <a className="btn btn-blue tra-grey-hover mt-10">
+                                                Kontaktformular
                                             </a>
                                         </Link>
                                     </div>

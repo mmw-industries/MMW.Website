@@ -26,7 +26,7 @@ function Faqs() {
                                 <div className="question wow fadeInUp">
                                     {/* Question */}
                                     <h5 className="h5-md">
-                                        Wie kann ich meine bestehenden Gerät verbinden?
+                                        Wie kann ich meine bestehenden Geräte verbinden?
                                     </h5>
                                     {/* Answer */}
                                     <p className="p-lg">
@@ -64,13 +64,15 @@ function Faqs() {
                                 <div className="question wow fadeInUp">
                                     {/* Question */}
                                     <h5 className="h5-md">
-                                        Wie kann ich mir die aktuellen Messwerte anschauen ?
+                                        Wie kann ich die aktuellen Messwerte betrachten?
                                     </h5>
                                     {/* Answer */}
                                     <p className="p-lg">
-                                        Dank des integrierten Web-Interfaces, kann von jedem modernen
-                                        Webbrowser auf das MapQS-Interface zugegriffen werden.
+                                        Durch des integrierte Web-Interface, kann von jedem modernen
+                                        Webbrowser, von überall* auf das MapQS-Interface zugegriffen werden.
                                     </p>
+                                    <p style={{fontSize: 10}} className="txt-300">*Abhängig von Ihrer
+                                        Netzwerk-Infrastruktur</p>
                                 </div>
                             </div>
                         </div>
@@ -87,8 +89,8 @@ function Faqs() {
                                     {/* Answer */}
                                     <p className="p-lg">
                                         Ja, pro Messkanal können Grenzwerte definiert werden.
-                                        Das MapQS Interface verfügt auch über ein potential-freies Relai, welches im
-                                        Alarmfall geschalten wird.
+                                        Das MapQS Interface verfügt auch über ein potential-freies Relais, welches bei
+                                        Über- bzw. Unterschreittung der Grenzwerte geschalten wird.
                                     </p>
                                 </div>
                                 {/* QUESTION #3 */}
@@ -99,10 +101,11 @@ function Faqs() {
                                     </h5>
                                     {/* Answer */}
                                     <p className="p-lg">
-                                        Das MapQS-Interface fragt die Analogen sowie Digitalen Schnittstellen bis zu 200
-                                        mal pro Sekunde ab.
-                                        Anschlißend werden die gemittelten Messwerte pro Sekunde im Sekunden-Rythmus im
+                                        Das MapQS-Interface sammelt die Daten der Analogen sowie Digitalen
+                                        Schnittstellen bis zu 200 mal pro Sekunde.
+                                        Anschließend werden die gemittelten Messwerte im Sekunden-Rythmus im
                                         internen Speicher gespeichert.
+                                        Dadurch ist es möglich schnelle Änderungen sowie kurze Peaks zu erkennen.
                                     </p>
                                 </div>
                             </div>
@@ -117,11 +120,24 @@ function Faqs() {
                     <div className="col">
                         <div className="more-questions">
                             <h5 className="h5-sm">
-                                Noch nicht alle Fragen beantwortet?
-                                <Link href="/contacts">
-                                    <a> Kontakt aufnehmen</a>
-                                </Link>
+                                Kontaktieren Sie unsere MapQS Spezialisten jetzt unter
                             </h5>
+                            <p style={{paddingTop: 10}}>
+                                <b>
+                                    Tel.:
+                                </b>
+                                <a href="tel:+43225620442"
+                                   style={{color: 'darkblue', marginLeft: 10}}
+                                >
+                                    <b>
+                                        +43 (0)2256 20442
+                                    </b>
+                                </a>
+                            </p>
+                            <p>oder über das</p>
+                            <Link href="/contacts">
+                                <a>Kontaktformular</a>
+                            </Link>
                         </div>
                     </div>
                 </div>

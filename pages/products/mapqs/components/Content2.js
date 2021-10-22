@@ -9,7 +9,7 @@ function Content1() {
                     <div className="col-lg-10 col-xl-8">
                         <div className="section-title title-01">
                             <h2 className="h2-md">
-                                Wofür wird MapQS verwendet ?
+                               MapQS wird verwendet für ...
                             </h2>
                         </div>
                     </div>

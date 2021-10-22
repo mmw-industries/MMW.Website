@@ -16,10 +16,10 @@ const contacts = () => {
                         <div className="col-md-10 col-lg-8">
                             <div className="section-title title-02 mb-80">
                                 <h2 className="h2-xs">
-                                    {`Have a question? Need help? Don't hesitate, drop us a line`}
+                                    {`Haben Sie Fragen oder benötigen Sie Hilfe bei einem bestehenden Produkt?`}
                                 </h2>
                                 <p className="p-xl">
-                                    Gerne beraten wir Sie bla bla bal
+                                    Unsere Spezialisten beraten Sie gerne
                                 </p>
                             </div>
                         </div>
@@ -38,23 +38,26 @@ const contacts = () => {
                                             className="form-select subject"
                                             aria-label="Default select example"
                                         >
-                                            <option selected>This question is about...</option>
-                                            <option>Registering/Authorising</option>
-                                            <option>Using Application</option>
-                                            <option>Troubleshooting</option>
-                                            <option>Backup/Restore</option>
-                                            <option>Other</option>
+                                            <option selected>MapQs</option>
+                                            <option>Gasmischer</option>
+                                            <option>Gasanalysegeräte</option>
+                                            <option>Dichtheitsprüfgeräte</option>
+                                            <option>Sicherheitseinrichtungen</option>
+                                            <option>Wartungen / Kalibrierungen</option>
+                                            <option>Softwareentwicklung</option>
+                                            <option>Ich habe eine Frage zu einem bestehenden Gerät</option>
+                                            <option>Sonstige</option>
                                         </select>
                                     </div>
                                     {/* Contact Form Input */}
                                     <div className="col-md-12">
                                         <p className="p-lg">Ihr Name: </p>
-                                        <span>Bitte geben Sie Ihren richtigen Namen ein: </span>
+                                        <span>Bitte geben Sie Ihren vollständigen Namen ein: </span>
                                         <input
                                             type="text"
                                             name="name"
                                             className="form-control name"
-                                            placeholder="Your Name*"
+                                            placeholder="Ihr vollständiger Name*"
                                         />
                                     </div>
                                     <div className="col-md-12">
@@ -66,20 +69,20 @@ const contacts = () => {
                                             type="text"
                                             name="email"
                                             className="form-control email"
-                                            placeholder="Email Address*"
+                                            placeholder="Email-Addresse*"
                                         />
                                     </div>
                                     <div className="col-md-12">
-                                        <p className="p-lg">Erläutern Sie Ihre Frage im Detail: </p>
+                                        <p className="p-lg">Ihr Anliegen etc.: </p>
                                         <span>
-                                          Your OS version, OLMO version &amp; build, steps you did.
-                                          Be VERY precise!
+                                          Bitte beschreiben Sie ihr Anliegen.<br/>
+                                            Bei Problemen mit bestehnden Anlagen geben Sie bitte die Seriennummer Ihres Geräts an.
                                         </span>
                                         <textarea
                                             className="form-control message"
                                             name="message"
                                             rows={6}
-                                            placeholder="I have a problem with..."
+                                            placeholder=""
                                             defaultValue={""}
                                         />
                                     </div>
