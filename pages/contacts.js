@@ -1,7 +1,7 @@
 import Link from "next/dist/client/link";
 import Layout from "../src/layout/Layout";
 
-const contacts = () => {
+const Contacts = () => {
     return (
         <Layout
             btnCustomHover="btn btn-skyblue tra-grey-hover last-link"
@@ -107,4 +107,4 @@ const contacts = () => {
     );
 };
 
-export default contacts;
+export default Contacts;

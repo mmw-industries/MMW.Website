@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Footer = () => {
     return (
         <footer id="footer-1" className="footer division">
@@ -18,12 +20,12 @@ const Footer = () => {
                             <ul className="foo-links text-secondary clearfix">
                                 <li>
                                     <p className="p-md">
-                                        <a href="/contacts">Kontakt</a>
+                                        <Link href="/contacts">Kontakt</Link>
                                     </p>
                                 </li>
                                 <li>
                                     <p className="p-md">
-                                        <a href="/impressum">Impressum</a>
+                                        <Link href="/impressum">Impressum</Link>
                                     </p>
                                 </li>
                             </ul>
@@ -34,12 +36,12 @@ const Footer = () => {
                             <ul className="foo-links text-secondary clearfix">
                                 <li>
                                     <p className="p-md">
-                                        <a href="/privacy">Datenschutz</a>
+                                        <Link href="/privacy">Datenschutz</Link>
                                     </p>
                                 </li>
                                 <li>
                                     <p className="p-md">
-                                        <a href="/agb">AGB's</a>
+                                        <Link href="/agb">AGB's</Link>
                                     </p>
                                 </li>
                             </ul>

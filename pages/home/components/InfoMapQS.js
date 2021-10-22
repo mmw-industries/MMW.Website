@@ -22,7 +22,7 @@ function InfoMapQS() {
                         <div className="img-block right-column wow fadeInLeft">
                             <img
                                 className="img-fluid"
-                                src="/images/Monitor-01.png"
+                                src="/images/monitor-01.png"
                                 alt="content-image"
                             />
                         </div>
