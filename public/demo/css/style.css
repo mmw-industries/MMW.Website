@@ -1,8 +1,8 @@
 .demo {
   /*
-   Template Name: OLMO - Software, App, SaaS & Startup Landing Pages Pack
+   Template Name: MMW - Software, App, SaaS & Startup Landing Pages Pack
    Theme URL: https://themeforest.net/user/jthemes
-   Description: OLMO - Software, App, SaaS & Startup Landing Pages Pack
+   Description: MMW - Software, App, SaaS & Startup Landing Pages Pack
    Author: JThemes
    Author URL: https://themeforest.net/user/jthemes
    Version: 1.0.0
@@ -30,16 +30,7 @@
   /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
    /*-----------------------------------------------------------------*/
 }
-@-webkit-viewport {
-  .demo {
-    width: device-width;
-  }
-}
-@-moz-viewport {
-  .demo {
-    width: device-width;
-  }
-}
+
 .demo #page {
   overflow: hidden;
 }

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import {useEffect, useState} from "react";
 import {scroll} from "../utils/utils";
-import HeaderMenuProducts from "./HeaderMenuProducts";
 import HeaderMenuProducts2 from "./HeaderMenuProducts2";
 
 const Header = ({
@@ -36,9 +35,11 @@ const Header = ({
             <div className="header-wrapper">
                 {/* MOBILE HEADER */}
                 <div className="wsmobileheader clearfix">
-                    <span className="smllogo">
-                        <img src="/images/logo/logo.png" alt="mobile-logo"/>
-                    </span>
+                    <Link href="/">
+                         <span className="smllogo">
+                            <img src="/images/logo/logo.png" alt="mobile-logo"/>
+                        </span>
+                    </Link>
                     <a
                         id="wsnavtoggle"
                         onClick={() => toggleFun()}

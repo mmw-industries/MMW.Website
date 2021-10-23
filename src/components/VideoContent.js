@@ -71,7 +71,7 @@ const VideoWithBtn = ({ id, extraClass, defText }) => {
       onClick={() => showVideo(id ? id : "7e90gBu4pas")}
     >
       <span className="flaticon-play"></span>{" "}
-      {defText ? defText : "See OLMO in Action"}
+      {defText ? defText : "See MMW in Action"}
     </a>
   );
 };

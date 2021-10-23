@@ -1,11 +1,11 @@
 import Layout from "../../../src/layout/Layout";
-import Hero from "./components/Hero";
-import Faqs from "./components/Faqs";
-import LiveView from "./components/LiveView";
-import Content1 from "./components/Content1";
-import ThreeSteps from "./components/ThreeSteps";
-import Devices from "./components/Devices";
-import Content2 from "./components/Content2";
+import Hero from "../../../src/pageComponents/products/mapqs/Hero";
+import Faqs from "../../../src/pageComponents/products/mapqs/Faqs";
+import LiveView from "../../../src/pageComponents/products/mapqs/LiveView";
+import Content1 from "../../../src/pageComponents/products/mapqs/Content1";
+import ThreeSteps from "../../../src/pageComponents/products/mapqs/ThreeSteps";
+import Devices from "../../../src/pageComponents/products/mapqs/Devices";
+import Content2 from "../../../src/pageComponents/products/mapqs/Content2";
 
 function Index() {
     return (

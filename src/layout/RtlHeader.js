@@ -204,7 +204,7 @@ const RtlHeader = ({ btnCustomHover, navHoverColor, navLight, whiteLogo }) => {
                     }}
                   >
                     <li aria-haspopup="true">
-                      <a href="#features-8">لماذا OLMO؟</a>
+                      <a href="#features-8">لماذا MMW؟</a>
                     </li>
                     <li aria-haspopup="true">
                       <a href="#content-3">أفضل الحلول</a>

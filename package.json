@@ -1,14 +1,16 @@
 {
-  "name": "olmo",
+  "name": "MMW",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "next build && next export -o build",
+    "postbuild": "next-sitemap",
     "start": "next dev"
   },
   "dependencies": {
     "isotope-layout": "^3.0.6",
     "next": "11.1.2",
+    "next-sitemap": "^1.6.192",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-countup": "^6.0.0",
