@@ -2,4 +2,5 @@
 /.next/
 /.idea
 /build
+/website
 yarn.lock
