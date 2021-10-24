@@ -2,7 +2,7 @@ import Head from "next/head";
 import {useEffect, useState} from "react";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import "../public/demo/css/style.css";
+import "../styles/demo/style.css";
 import VideoState from "../src/context/video";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";

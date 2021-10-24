@@ -211,7 +211,7 @@ function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
                         <TabList>
                             {groups.map(group => {
                                 return (
-                                    <Tab>
+                                    <Tab key={group.header}>
                                         <p>{group.header}</p>
                                     </Tab>
                                 )
@@ -219,12 +219,14 @@ function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
                         </TabList>
                         {groups.map(group => {
                             return (
-                                <TabPanel>
+                                <TabPanel key={group.header}>
                                     <div className="menu-tabs__panel-content">
                                         <ul className="col-lg-6 link-list ml-10">
                                         {group.items.map(item => {
                                             return (
-                                                <li className="fst-li">
+                                                <li key={item.title}
+                                                    className="fst-li"
+                                                >
                                                     <Link href={item.link}>
                                                         {item.title}
                                                     </Link>

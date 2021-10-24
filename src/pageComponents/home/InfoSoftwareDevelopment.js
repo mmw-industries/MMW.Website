@@ -8,12 +8,12 @@ function InfoSoftwareDevelopment() {
         >
             <div className="container">
                 <div className="row d-flex align-items-center">
-                    <div className="col-md-12 col-lg-6 order-first order-md-first">
+                    <div className="col-md-12 col-lg-12 order-first order-md-first">
                         <div className="txt-block left-column wow fadeInRight">
                             <span className="section-id txt-upcase">INNOVATIV | ZUKUNFTSSICHER | INDIVIDUELL</span>
                         </div>
                     </div>
-                    <div className="col-md-12 col-lg-6 order-first order-md-1">
+                    <div className="d-lg-none col-md-12 col-lg-12 order-first order-md-1">
                         <div className="txt-block left-column wow fadeInRight">
                             <h2 className="h2-xs">
                                 SOFTWARE ENTWICKLUNG
@@ -22,6 +22,11 @@ function InfoSoftwareDevelopment() {
                     </div>
                     <div className="col-md-12 col-lg-6 order-last order-md-3">
                         <div className="txt-block left-column wow fadeInRight">
+                            <div className="d-none d-md-none d-sm-none d-lg-block txt-block left-column wow fadeInRight">
+                                <h2 className="h2-xs">
+                                    SOFTWARE ENTWICKLUNG
+                                </h2>
+                            </div>
                             <ul className="simple-list">
                                 <li className="list-item">
                                     <p className="p-lg">
@@ -45,7 +50,7 @@ function InfoSoftwareDevelopment() {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-md-8 col-lg-6 order-first order-md-2">
+                    <div className="col-md-8 col-lg-6 order-first order-lg-last order-md-2">
                         <div className="rel img-block right-column wow fadeInLeft">
                             <img
                                 className="img-fluid"
