@@ -1,11 +1,58 @@
-import Link from "next/dist/client/link";
 import Layout from "../src/layout/Layout";
+import {useState} from "react";
+import axios from "axios";
+
+const meta = {
+    title: "Kontakformular",
+    description: "Nehmen Sie mit einem unserer Spezialisten von MMW Analytics Solutions GmbH Kontakt auf.",
+    keywords: "MMW, Industries, MMW Industries, Contact",
+    og_image: "https://mmw.industries/images/contact.jpg",
+    og_url: "https://mmw.industries/",
+};
 
 const Contacts = () => {
+    const [fullName, setFullName] = useState('');
+    const [email, setEmail] = useState('');
+    const [thema, setThema] = useState('MapQS');
+    const [content, setContent] = useState('');
+    const [isBusy, setIsBusy] = useState(false);
+
+    function reset() {
+        setFullName('');
+        setEmail('');
+        setThema('');
+        setContent('');
+        setIsBusy(false);
+    }
+
+    function sendContactRequest() {
+        setIsBusy(true);
+        if (fullName === '' ||
+            email === '' ||
+            thema === '' ||
+            content === '')
+            return;
+        axios.post("https://api.mmw.industries/api/v1/contact", {
+            categorie: thema,
+            fullName: fullName,
+            email: email,
+            content: content
+        })
+        .then(res => {
+            window.alert("Ihre Anfrage wurde erfolgreich gesendet.");
+            reset();
+        })
+        .catch(err => {
+            window.alert("Fehler beim Senden der Anfrage, bitte probieren Sie es erneut oder kontaktieren Sie uns unter office@mmw.industries bzw. telefonisch unter +43 (0)2256 20442!");
+            setIsBusy(false);
+        })
+    }
+
     return (
         <Layout
             btnCustomHover="btn btn-skyblue tra-grey-hover last-link"
             singlePage
+            meta={meta}
         >
             <section
                 id="contacts-2"
@@ -37,8 +84,11 @@ const Contacts = () => {
                                         <select
                                             className="form-select subject"
                                             aria-label="Default select example"
+                                            value={thema}
+                                            onChange={e => setThema(e.target.value)}
+                                            disabled={isBusy}
                                         >
-                                            <option selected>MapQs</option>
+                                            <option>MapQS</option>
                                             <option>Gasmischer</option>
                                             <option>Gasanalysegeräte</option>
                                             <option>Dichtheitsprüfgeräte</option>
@@ -54,8 +104,11 @@ const Contacts = () => {
                                         <p className="p-lg">Ihr Name: </p>
                                         <span>Bitte geben Sie Ihren vollständigen Namen ein: </span>
                                         <input
+                                            disabled={isBusy}
                                             type="text"
                                             name="name"
+                                            value={fullName}
+                                            onChange={e => setFullName(e.target.value)}
                                             className="form-control name"
                                             placeholder="Ihr vollständiger Name*"
                                         />
@@ -66,8 +119,11 @@ const Contacts = () => {
                                           Bitte überprüfen Sie Ihre E-Mail-Adresse sorgfältig auf ihre Richtigkeit
                                         </span>
                                         <input
+                                            disabled={isBusy}
                                             type="text"
                                             name="email"
+                                            value={email}
+                                            onChange={e => setEmail(e.target.value)}
                                             className="form-control email"
                                             placeholder="Email-Addresse*"
                                         />
@@ -75,23 +131,28 @@ const Contacts = () => {
                                     <div className="col-md-12">
                                         <p className="p-lg">Ihr Anliegen etc.: </p>
                                         <span>
-                                          Bitte beschreiben Sie ihr Anliegen.<br/>
+                                            Bitte beschreiben Sie ihr Anliegen.<br/>
                                             Bei Problemen mit bestehnden Anlagen geben Sie bitte die Seriennummer Ihres Geräts an.
                                         </span>
                                         <textarea
+                                            disabled={isBusy}
                                             className="form-control message"
                                             name="message"
                                             rows={6}
+                                            value={content}
+                                            onChange={e => setContent(e.target.value)}
                                             placeholder=""
                                             defaultValue={""}
                                         />
                                     </div>
                                     <div className="col-md-12 mt-15 form-btn text-right">
                                         <button
+                                            disabled={isBusy}
                                             type="submit"
-                                            className="btn btn-skyblue tra-grey-hover submit"
+                                            onClick={sendContactRequest}
+                                            className="btn btn-skyblue tra-grey-hover"
                                         >
-                                           Anfrage senden
+                                            Anfrage senden
                                         </button>
                                     </div>
                                     <div className="col-lg-12 contact-form-msg">

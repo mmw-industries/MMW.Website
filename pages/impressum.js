@@ -1,10 +1,20 @@
 import Layout from "../src/layout/Layout";
 
+const meta = {
+    title: "Impressum",
+    description: "Impressum der MMW Analytics Solutions GmbH.",
+    keywords: "MMW, Industries, MMW Industries",
+    og_image: "https://mmw.industries/impressum.jpg",
+    og_url: "https://mmw.industries/",
+};
+
 function Impressum() {
     return (
-        <Layout navHoverColor="nav-blue-hover">
+        <Layout navHoverColor="nav-blue-hover"
+                meta={meta}
+        >
             <section id="1" className="bg-scroll hero-section division">
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center mt-100 pt-50">
                         <h2>Impressum</h2>
                         <p>
@@ -13,7 +23,7 @@ function Impressum() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-50">
                         <h1>MMW Analytics Solutions GmbH</h1>
                         <p>
@@ -62,25 +72,26 @@ function Impressum() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-50">
                         <h2>Tätigkeitsbereich</h2>
                         <p>
                             GISA: 31594738 | Mechatroniker für Elektromaschinenbau und Automatisierung<br/>
-                            GISA: 31567527 | Dienstleistung in der Automatischen Datenverarbeitung und Informationstechnik<br/>
+                            GISA: 31567527 | Dienstleistung in der Automatischen Datenverarbeitung und
+                            Informationstechnik<br/>
                             GISA: 31567695 | Handelsgewerbe mit Ausnahme der reglementierten Handelsgewerbe<br/>
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-50">
                         <h2>Verleihungsstaat</h2>
                         <p>
-                           Österreich
+                            Österreich
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-50">
                         <h2>Datenschutzerklärung</h2>
                         <p>

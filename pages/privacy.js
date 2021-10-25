@@ -1,10 +1,20 @@
 import Layout from "../src/layout/Layout";
 
+const meta = {
+    title: "Datenschutz",
+    description: "Datenschutzerklärung der MMW Analytics Solutions GmbH.",
+    keywords: "MMW, Industries, MMW Industries",
+    og_image: "https://mmw.industries/images/data-protection.jpg",
+    og_url: "https://mmw.industries/",
+};
+
 function Privacy() {
     return (
-        <Layout navHoverColor="nav-blue-hover">
+        <Layout navHoverColor="nav-blue-hover"
+                meta={meta}
+        >
             <section id="1" className="bg-scroll hero-section division">
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center mt-100 pt-50">
                         <h1>Datenschutz</h1>
                         <p>
@@ -17,7 +27,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-50">
                         <h2>Verantwortliche Stelle & Ansprechpartner</h2>
                         <strong>
@@ -57,7 +67,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Allgemeines zur Verwendung von Daten</h2>
                         <p>
@@ -73,7 +83,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Kontaktaufnahme in der Allgemeinen Geschäftsgebarung</h2>
                         <p>
@@ -85,7 +95,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Newsletter und andere Werbemaßnahmen</h2>
                         <p>
@@ -102,7 +112,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Automatische Erfassung von Daten</h2>
                         <p>
@@ -117,7 +127,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Cookies</h2>
                         <p>
@@ -137,7 +147,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Google Analytics</h2>
                         <p>
@@ -172,7 +182,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Google Analytics – Berichte zu Demografischen Merkmalen und Interessen</h2>
                         <p>
@@ -185,7 +195,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Anonymize-IP</h2>
                         <p>
@@ -200,7 +210,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Einbindung von Diensten und Inhalten Dritter</h2>
                         <p>
@@ -215,7 +225,7 @@ function Privacy() {
                         </p>
                     </div>
                 </div>
-                <div className='container'>
+                <div className='container col-7'>
                     <div className="row d-flex align-items-center pt-100">
                         <h2>Ihre Rechte</h2>
                         <p>

@@ -19,7 +19,6 @@ const Index = () => {
     return (
         <Layout navLight navHoverColor="nav-blue-hover" meta={meta}>
             <Hero/>
-            {/*<Brands/>*/}
             <InfoMapQS/>
             <hr className='divider'/>
             <InfoGasMischAnalyse/>
@@ -28,8 +27,6 @@ const Index = () => {
             <hr className='divider'/>
             <InfoService/>
             <InfoSoftwareDevelopment/>
-            {/*<Devices/>*/}
-            {/*<Statistics/>*/}
             <LastContent/>
         </Layout>
     );
