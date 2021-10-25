@@ -7,9 +7,20 @@ import ThreeSteps from "../../../src/pageComponents/products/mapqs/ThreeSteps";
 import Devices from "../../../src/pageComponents/products/mapqs/Devices";
 import Content2 from "../../../src/pageComponents/products/mapqs/Content2";
 
+const meta = {
+    title: "MapQS - Die neue Dimension in der Qualitätssicherung",
+    description: "MapQS - Noch nie war die digitale Dokumentation in der Qualitätssicherung so einfach und effizient wie mit dem MapQS-System von MMW Analytics Solutions.",
+    keywords: "MapQS, digitale, Dokumentation, Qualitätssicherung",
+    og_image: "https://mmw.industries/images/tablet-01.png",
+    og_url: "https://mmw.industries/products/mapqs",
+};
+
 function Index() {
     return (
-        <Layout navLight navHoverColor="nav-blue-hover">
+        <Layout navLight
+                navHoverColor="nav-blue-hover"
+                meta={meta}
+        >
             <Hero/>
             <Content1/>
             <hr className='divider'/>

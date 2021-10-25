@@ -7,9 +7,17 @@ import InfoService from "../src/pageComponents/home/InfoService";
 import InfoSoftwareDevelopment from "../src/pageComponents/home/InfoSoftwareDevelopment";
 import LastContent from "../src/pageComponents/home/LastContent";
 
+const meta = {
+    title: "MMW Analytics Solutions ihr Spezialist für ",
+    description: "MapQS, Gasverfahrenstechnik - Prozessanalytik, Gassicherheitstechnik, Servicedienstleistungen, individuelle Softwareentwicklung",
+    keywords: "MapQS, Gasverfahrenstechnik - Prozessanalytik, Gassicherheitstechnik, Servicedienstleistungen, individuelle Softwareentwicklung",
+    og_image: "https://mmw.industries/images/factory-worker-service.jpg",
+    og_url: "https://mmw.industries/",
+};
+
 const Index = () => {
     return (
-        <Layout navLight navHoverColor="nav-blue-hover">
+        <Layout navLight navHoverColor="nav-blue-hover" meta={meta}>
             <Hero/>
             {/*<Brands/>*/}
             <InfoMapQS/>

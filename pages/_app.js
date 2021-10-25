@@ -23,7 +23,7 @@ function MyApp({Component, pageProps}) {
                 <link
                     rel="shortcut icon"
                     type="image/x-icon"
-                    href="/demo/images/icons/favicon.ico"
+                    href="/favicon.ico"
                 />
             </Head>
             {preloader && <PreLoader/>}
