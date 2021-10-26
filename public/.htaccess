@@ -1,0 +1,16 @@
+
+############HTACCESS W4Y START############
+Order Allow,Deny
+Allow from all
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} mmw.industries$
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+#############HTACCESS W4Y END#############
+
+ErrorDocument 404 https://mmw.industries/404
+Redirect /home /
+Redirect /agbs /agb

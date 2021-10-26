@@ -1,8 +1,7 @@
 import Link from "next/dist/client/link";
-import Layout from "../src/layout/Layout";
+
 const Page404 = () => {
   return (
-    <Layout btnCustomHover="btn-skyblue tra-grey-hover">
       <section id="hero-24" className="bg-tra-blue hero-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
@@ -13,9 +12,9 @@ const Page404 = () => {
                 <div className="rel hero-24-img">
                   {/* Image */}
                   <img
-                    className="img-fluid"
-                    src="/images/error-404.png"
-                    alt="error-404-img"
+                      className="img-fluid"
+                      src="/images/error-404.png"
+                      alt="error-404-img"
                   />
                   {/* Transparent Header */}
                   <h2 className="tra-header">404</h2>
@@ -27,7 +26,7 @@ const Page404 = () => {
                   or might never existed{" "}
                 </h5>
                 {/* Button */}
-                <Link href="/demo-1">
+                <Link href="/">
                   <a className="btn btn-skyblue tra-grey-hover">Back To Home</a>
                 </Link>
               </div>
@@ -38,7 +37,6 @@ const Page404 = () => {
         </div>{" "}
         {/* End container */}
       </section>
-    </Layout>
   );
 };
 
