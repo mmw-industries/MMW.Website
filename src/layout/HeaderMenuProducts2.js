@@ -28,7 +28,7 @@ function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
                     <h4 style={{paddingLeft: 5, paddingTop: 10, paddingBottom: 0}}>
                         Produktübersicht
                     </h4>
-                    <hr style={{marginLeft: -15, marginRight: -15, color: 'gray'}}/>
+                    <hr style={{marginLeft: -10, marginRight: -10, color: 'gray'}}/>
                     <Tabs>
                         <TabList>
                             {MenuProductsList.map(group => {
@@ -48,27 +48,27 @@ function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
                                     >
                                         {group.items.map(itemsGroup => {
                                             return (
-                                                <>
-                                                    <ul className="col-md-12 col-lg-4"
-                                                        style={{textAlign: 'left'}}>
-                                                        <h6>
-                                                            {itemsGroup.header}
-                                                        </h6>
-                                                        {itemsGroup.items.map(item => {
-                                                            return (
-                                                                <li key={item.title}
-                                                                    style={{paddingLeft: 5}}
+                                                <ul key={itemsGroup.header}
+                                                    className="col-md-12 col-lg-4"
+                                                    style={{textAlign: 'left'}}
+                                                >
+                                                    <h6>
+                                                        {itemsGroup.header}
+                                                    </h6>
+                                                    {itemsGroup.items.map(item => {
+                                                        return (
+                                                            <li key={item.title}
+                                                                style={{paddingLeft: 5}}
+                                                            >
+                                                                <Link
+                                                                    href={item.link}
                                                                 >
-                                                                    <Link
-                                                                        href={item.link}
-                                                                    >
-                                                                        {item.title}
-                                                                    </Link>
-                                                                </li>
-                                                            )
-                                                        })}
-                                                    </ul>
-                                                </>
+                                                                    {item.title}
+                                                                </Link>
+                                                            </li>
+                                                        )
+                                                    })}
+                                                </ul>
                                             )
                                         })}
                                     </div>

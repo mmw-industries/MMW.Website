@@ -3,7 +3,7 @@ import ProductDetailTemplate from "../../src/components/ProductDetailTemplate";
 const meta = {
     title: "Gasanalysator OXYBABY® Med",
     description: "O2- bzw. O2/CO2-Gasanalysator zur Kontrolle medizinischer Gase",
-    keywords: "Oxybaby, Oxybaby Med, Gasanalysator, O2, CO2, mobile, medizinischer Gase",
+    keywords: "Oxybaby, Oxybaby Med, Gasanalysator, O2, CO2, mobile, medizinischer Gase,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
     og_image: "https://www.wittgas.com/fileadmin/_processed_/9/6/csm_witt_gas_analyser_oxybaby_med_40bc9819fa.png",
     og_url: "https://mmw.industries/products/oxybaby-med",
 };

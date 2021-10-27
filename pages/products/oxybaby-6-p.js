@@ -3,7 +3,7 @@ import ProductDetailTemplate from "../../src/components/ProductDetailTemplate";
 const meta = {
     title: "Gasanalysator OXYBABY® 6.0 P",
     description: "O2- bzw. O2/CO2-Gasanalysator für Druckleitungen, Premiumversion",
-    keywords: "Oxybaby, Oxybaby 6.0 P, Gasanalysator, O2, CO2, mobile, Druckleitungen",
+    keywords: "Oxybaby, Oxybaby 6.0 P, Gasanalysator, O2, CO2, mobile, Druckleitungen,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
     og_image: "https://www.wittgas.com/fileadmin/_processed_/f/6/csm_witt_gas_analyser_oxybaby6_p_ecab16762b.png",
     og_url: "https://mmw.industries/products/oxybaby-6-p",
 };

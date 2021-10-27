@@ -3,7 +3,7 @@ import ProductDetailTemplate from "../../src/components/ProductDetailTemplate";
 const meta = {
     title: "Gasanalysator OXYBABY® M+",
     description: "O2- bzw. O2/CO2-Gasanalysator für MAP-Verpackungen, Basisversion",
-    keywords: "Oxybaby, Oxybaby M+, Gasanalysator, O2, CO2, mobile",
+    keywords: "Oxybaby, Oxybaby M+, Gasanalysator, O2, CO2, mobile,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
     og_image: "https://www.wittgas.com/fileadmin/_processed_/6/a/csm_witt_gas_analyser_oxybaby_mplus_41cdaee519.png",
     og_url: "https://mmw.industries/products/oxybaby-mplus",
 };

@@ -139,10 +139,10 @@ export const MenuProductsList = [
         ]
     },
     {
-        header: "Gasanalyse Portable",
+        header: "Gasanalyse",
         items: [
             {
-                header: "OXYBABY®",
+                header: "Mobile",
                 items: [
                     {
                         title: "OXYBABY® 6.0",
@@ -167,31 +167,34 @@ export const MenuProductsList = [
                         link: '/products/oxybaby-med'
                     },
                     {
-                        title: "OXYBABY® Zubehör",
-                        link: ''
-                    }
-                ]
-            },
-            {
-                header: "MAPY",
-                items: [
-                    {
-                        title: "Mapy 4.0 Serie",
-                        link: ''
+                        title: "Mapy 4.0",
+                        link: '/products/mapy-4'
                     },
                     {
-                        title: "Mapy 4.0 LE Serie",
-                        link: ''
+                        title: "PA 7.0",
+                        link: '/products/pa-7'
                     }
                 ]
             },
             {
-                header: "PA 7.0",
+                header: "Inline",
                 items: [
                     {
-                        title: "PA 7.0 Serie",
-                        link: ''
-                    }
+                        title: "PA 7.0",
+                        link: '/products/pa-7'
+                    },
+                    {
+                        title: "MAPY 4.0 LE",
+                        link: '/products/mapy-le'
+                    },
+                    {
+                        title: "MAPY VAC",
+                        link: '/products/mapy-vac'
+                    },
+                    {
+                        title: "Inline Gasanalysator",
+                        link: '/products/inline-analyser'
+                    },
                 ]
             },
             {
@@ -205,6 +208,39 @@ export const MenuProductsList = [
                         title: "MFA 9000",
                         link: '/products/mfa9000'
                     }
+                ]
+            },
+            {
+                header: "Zubehör",
+                items: [,
+                    {
+                        title: "Verbrauchsmaterialien",
+                        link: '/products/consumables'
+                    },
+                    {
+                        title: "Rückspülfilter",
+                        link: '/products/backwash-filter'
+                    },
+                    {
+                        title: "Can-Piercer",
+                        link: '/products/can-piercer'
+                    },
+                    {
+                        title: "Aquacheck",
+                        link: '/products/aquacheck'
+                    },
+                    {
+                        title: "Tischständer",
+                        link: '/products/table-stand'
+                    },
+                    {
+                        title: "Tischdrucker",
+                        link: '/products/table-printer'
+                    },
+                    {
+                        title: "Barcode-Reader",
+                        link: '/products/barcode-reader'
+                    },
                 ]
             }
         ]

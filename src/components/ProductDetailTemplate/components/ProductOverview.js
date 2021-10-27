@@ -32,15 +32,17 @@ function ProductOverview({data}) {
                                         data={data.overviewContent}
                                     />
                                     <div className="row">
-                                        <div className="col-sm-12 col-xl-6">
-                                            <Button
-                                                className="btn-datasheet d-flex flex-row align-items-center gap-3"
-                                                onClick={() => window.open(data.datasheetLink, "_blank")}
-                                            >
-                                                <AiOutlineFilePdf size={25}/>
-                                                Datenblatt
-                                            </Button>
-                                        </div>
+                                        {data.datasheetLink && data.datasheetLink !== "" && (
+                                            <div className="col-sm-12 col-xl-6">
+                                                <Button
+                                                    className="btn-datasheet d-flex flex-row align-items-center gap-3"
+                                                    onClick={() => window.open(data.datasheetLink, "_blank")}
+                                                >
+                                                    <AiOutlineFilePdf size={25}/>
+                                                    Datenblatt
+                                                </Button>
+                                            </div>
+                                        )}
                                         <div className="col-sm-12 col-xl-6">
                                             <Button
                                                 className="btn-contact d-flex flex-row align-items-center gap-3"

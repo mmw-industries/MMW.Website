@@ -33,6 +33,7 @@ function ProductImageSlider({data}) {
                 {data.productImages.map(image => {
                     return (
                         <img
+                            key={image}
                             className="product-image"
                             src={image}
                             width={450}

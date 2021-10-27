@@ -14,7 +14,6 @@ const data = {
     overviewHeader: "",
     overviewContent: [
         {
-
             type: 'list',
             header: "",
             items: [
@@ -47,8 +46,8 @@ const data = {
         {
             image: "",
             link: "",
-            title: "",
-            content: ""
+            title: "Datenblatt",
+            content: "Alle Technischen Informationen zu dem Produkt"
         }
     ]
 };

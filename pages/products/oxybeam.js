@@ -3,7 +3,7 @@ import ProductDetailTemplate from "../../src/components/ProductDetailTemplate";
 const meta = {
     title: "Gasanalysator OXYBEAM",
     description: "Laser-Gasanalysator (O2 oder CO2) für zerstörungsfreie Stichproben von Verpackungen",
-    keywords: "Gasanalysator, Laser-Gasanalysator, O2, CO2, zerstörungsfreie Stichproben",
+    keywords: "Gasanalysator, Laser-Gasanalysator, O2, CO2, zerstörungsfreie Stichproben,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
     og_image: "https://www.wittgas.com/fileadmin/_processed_/d/0/csm_witt_gas_analyser_oxybeam_f79fba7e87.png",
     og_url: "https://mmw.industries/products/oxybeam",
 };

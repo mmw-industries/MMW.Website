@@ -17,6 +17,7 @@ function ProductDownloads({data}) {
                                         {data.downloads.map(item => {
                                             return (
                                                 <div
+                                                    key={item.link}
                                                     className="download-item col-lg-5 d-flex"
                                                     onClick={() => window.open(item.link, "_blank")}
                                                 >
