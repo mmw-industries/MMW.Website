@@ -6,7 +6,7 @@ function Brands() {
         arrows: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         responsive: [
@@ -46,6 +46,16 @@ function Brands() {
             link: "https://www.mondigroup.com/en/home/"
         },
         {
+            title: "SalzburgMilch GmbH",
+            logo: "/images/company-logos/SalzburgMilch_Logo.png",
+            link: "https://www.milch.com/"
+        },
+        {
+            title: "Gittis Naturprodukte GmbH",
+            logo: "/images/company-logos/gittis.png",
+            link: "https://www.gittis.at/"
+        },
+        {
             title: "Wewalka GmbH Nfg. KG",
             logo: "/images/company-logos/Wewalka_LOGO_RGB.png",
             link: "https://wewalka.com/de/"
@@ -56,22 +66,22 @@ function Brands() {
             link: "https://www.mondigroup.com/en/home/"
         },
         {
-            title: "Wewalka GmbH Nfg. KG",
-            logo: "/images/company-logos/Wewalka_LOGO_RGB.png",
-            link: "https://wewalka.com/de/"
+            title: "SalzburgMilch GmbH",
+            logo: "/images/company-logos/SalzburgMilch_Logo.png",
+            link: "https://www.milch.com/"
         },
         {
-            title: "Mondi Korneuburg GmbH",
-            logo: "/images/company-logos/mondi-logo.png",
-            link: "https://www.mondigroup.com/en/home/"
-        }
+            title: "Gittis Naturprodukte GmbH",
+            logo: "/images/company-logos/gittis.png",
+            link: "https://www.gittis.at/"
+        },
     ]
 
     return (
         <div id="brands-1" className="wide-100 brands-section division">
             <div className="container">
                 <div className="row">
-                    <div className="col text-center">
+                    <div className="col text-center align-items-center">
                         <Slider {...setting} className="owl-carousel brands-carousel">
                             {brands.map(brand => {
                                 return (
@@ -80,7 +90,10 @@ function Brands() {
                                         target="_blank"
                                         className="brand-logo">
                                         <img
-                                            className="img-fluid"
+                                            className="w-100"
+                                            style={{objectFit: 'contain'}}
+                                            width={260}
+                                            height={260}
                                             src={brand.logo}
                                             alt="brand-logo"
                                         />

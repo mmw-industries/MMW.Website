@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8">
-                        <div className="footer-info mb-40">
+                        <div className="footer-info">
                             <img
                                 className="mb-25"
                                 style={{maxHeight: 120}}
@@ -48,7 +48,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr/>
                 <div className="bottom-footer">
                     <div className="row row-cols-1 row-cols-md-2 d-flex align-items-center">
                         <div className="col">

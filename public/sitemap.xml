@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://mmw.industries/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-26T18:04:43.238Z</lastmod></url>
-<url><loc>https://mmw.industries/agb/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-26T18:04:43.238Z</lastmod></url>
-<url><loc>https://mmw.industries/contacts/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-26T18:04:43.238Z</lastmod></url>
-<url><loc>https://mmw.industries/impressum/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-26T18:04:43.238Z</lastmod></url>
-<url><loc>https://mmw.industries/privacy/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-26T18:04:43.238Z</lastmod></url>
-<url><loc>https://mmw.industries/products/mapqs/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-26T18:04:43.238Z</lastmod></url>
+<url><loc>https://mmw.industries/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/agb/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/contacts/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/impressum/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/privacy/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/mapqs/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/mfa9000/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/oxybaby-6/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/oxybaby-6-p/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/oxybaby-med/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/oxybaby-mplus/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/oxybaby-mplus-p/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
+<url><loc>https://mmw.industries/products/oxybeam/</loc><changefreq>daily</changefreq><priority>0.7</priority><lastmod>2021-10-27T14:27:21.239Z</lastmod></url>
 </urlset>

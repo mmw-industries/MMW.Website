@@ -10,13 +10,20 @@ const meta = {
 
 function Privacy() {
     return (
-        <Layout navHoverColor="nav-blue-hover"
+        <Layout navHoverColor="nav-blue-hover tra-grey-hover"
                 meta={meta}
+                singlePage
         >
-            <section id="1" className="bg-scroll hero-section division">
+            <section
+                id="terms-page"
+                className="bg-snow wide-70 inner-page-hero terms-section division"
+            >
+                <div className="terms-title text-center">
+                    <h2 className="h2-md">Datenschutz</h2>
+                </div>
+                <hr className="divider"/>
                 <div className='container col-7'>
-                    <div className="row d-flex align-items-center mt-100 pt-50">
-                        <h1>Datenschutz</h1>
+                    <div className="row d-flex align-items-center mt-100">
                         <p>
                             Diese Webseite wird betrieben, um Angebote der Institution „MMW ANALYTICS SOLUTIONS“,
                             sowie damit verbundene Informationen und Kontaktmöglichkeiten bereitzustellen.

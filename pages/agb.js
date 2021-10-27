@@ -11,12 +11,19 @@ const meta = {
 
 function Agb() {
     return (
-        <Layout navHoverColor="nav-blue-hover"
+        <Layout navHoverColor="nav-blue-hover tra-grey-hover"
                 meta={meta}
+                singlePage
         >
-            <section id="1" className="bg-scroll hero-section division">
-                <div className="container mt-100 pt-50 mb-100 col-7">
-                    <h1>Allgemeine Geschäftsbedingungen</h1>
+            <section
+                id="terms-page"
+                className="bg-snow wide-70 inner-page-hero terms-section division"
+            >
+                <div className="terms-title text-center">
+                    <h2 className="h2-md">Allgemeine Geschäftsbedingungen</h2>
+                </div>
+                <hr className="divider"/>
+                <div className="container mt-100 mb-100 col-7">
                     <p>Nachfolgend finden Sie die aktuell gültigen AGBs der MMW Analytics Solutions GmbH für
                         Unternehmergeschäfte.</p>
                     <a href="/files/AGB-Analytics-Solutions-GmbH.pdf" target="_href"

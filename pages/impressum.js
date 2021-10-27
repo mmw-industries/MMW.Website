@@ -10,22 +10,25 @@ const meta = {
 
 function Impressum() {
     return (
-        <Layout navHoverColor="nav-blue-hover"
+        <Layout navHoverColor="nav-blue-hover tra-grey-hover"
                 meta={meta}
+                singlePage
         >
-            <section id="1" className="bg-scroll hero-section division">
+            <section
+                id="terms-page"
+                className="bg-snow wide-70 inner-page-hero terms-section division"
+            >
+                <div className="terms-title text-center">
+                    <h2 className="h2-md">Impressum</h2>
+                </div>
+                <hr className="divider"/>
                 <div className='container col-7'>
-                    <div className="row d-flex align-items-center mt-100 pt-50">
-                        <h2>Impressum</h2>
-                        <p>
+                    <div className="row d-flex align-items-center pt-50">
+                        <p className="mb-100">
                             Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63
                             Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.
                         </p>
-                    </div>
-                </div>
-                <div className='container col-7'>
-                    <div className="row d-flex align-items-center pt-50">
-                        <h1>MMW Analytics Solutions GmbH</h1>
+                        <h2>MMW Analytics Solutions GmbH</h2>
                         <p>
                             Aredstraße 11/8<br/>
                             2544 Leobersdorf<br/>

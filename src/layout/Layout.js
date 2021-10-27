@@ -15,7 +15,6 @@ const Layout = ({
                     btnCustomHover,
                     navHoverColor,
                     singlePage,
-                    headerTitle,
                     meta
                 }) => {
     const videoContext = useContext(VideoContext);

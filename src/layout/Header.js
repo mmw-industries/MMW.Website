@@ -71,7 +71,9 @@ const Header = ({
                         </div>
 
                         {/* MAIN MENU */}
-                        <nav className="wsmenu clearfix">
+                        <nav className="wsmenu clearfix"
+                             style={{float: 'left'}}
+                        >
                             <div className="overlapblackbg" onClick={() => toggleFun()}/>
                             <ul
                                 className={`wsmenu-list ${
@@ -82,6 +84,16 @@ const Header = ({
                                     mobileMenuToggle={mobileMenuToggle}
                                     toggleMenu={toggleMenu}
                                 />
+                            </ul>
+                        </nav>
+                        <nav className="wsmenu clearfix"
+                        >
+                            <div className="overlapblackbg" onClick={() => toggleFun()}/>
+                            <ul
+                                className={`wsmenu-list ${
+                                    navHoverColor ? navHoverColor : "nav-skyblue-hover"
+                                }`}
+                            >
                                 <li className="nl-simple">
                                     <Link href="/contacts">Kontakt</Link>
                                 </li>
@@ -90,7 +102,7 @@ const Header = ({
 										<span><Link href="#" class="ico-facebook"><span class="flaticon-facebook"></span></Link></span>
 										<span><Link href="#" class="ico-twitter"><span class="flaticon-twitter"></span></Link></span>
 										<span><Link href="#" class="ico-instagram"><span class="flaticon-instagram"></span></Link></span>
-										<span><Link href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></Link></span>	
+										<span><Link href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></Link></span>
 									</li> */}
                             </ul>
                         </nav>

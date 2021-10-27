@@ -1,188 +1,6 @@
 import Link from "next/link";
 import {Tab, TabList, TabPanel, Tabs} from "react-tabs";
-
-const groups = [
-    {
-        header: "Qualitätssicherung",
-        items: [
-            {
-                title: 'MapQS',
-                link: '/products/mapqs'
-            },
-            {
-                title: 'OBCC',
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Gasmischer",
-        items: [
-            {
-                title: 'KM-M Serie',
-                link: ''
-            },
-            {
-                title: 'KM-M+ Serie',
-                link: ''
-            },
-            {
-                title: 'KM-MEM Serie',
-                link: ''
-            },
-            {
-                title: 'KM-MEM+ Serie',
-                link: ''
-            },
-            {
-                title: 'MG-MEM Serie',
-                link: ''
-            },
-            {
-                title: 'KM-MEM+ Serie',
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Gasanalyse Portable",
-        items: [
-            {
-                title: "OXYBABY® Serie",
-                link: ''
-            },
-            {
-                title: "OXYBABY® Druckgeführt Serie",
-                link: ''
-            },
-            {
-                title: "OXYBABY® MED Serie",
-                link: ''
-            },
-            {
-                title: "OXYBABY® Zubehör",
-                link: ''
-            },
-            {
-                title: "Mapy 4.0 Serie",
-                link: ''
-            },
-            {
-                title: "PA 7.0 Serie",
-                link: ''
-            },
-            {
-                title: "OXYBEAM",
-                link: ''
-            },
-            {
-                title: "MFA 9000",
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Gasanalyse Inline",
-        items: [
-            {
-                title: "KM Mapy Serie",
-                link: ''
-            },
-            {
-                title: "Mapy 4.0 LE",
-                link: ''
-            },
-            {
-                title: "KD",
-                link: ''
-            },
-            {
-                title: "Mapy Vac",
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Dichtheitsprüfung",
-        items: [
-            {
-                title: "LEAK-MASTER® MapMax",
-                link: ''
-            },
-            {
-                title: "LEAK-MASTER® MapMax Compact",
-                link: ''
-            },
-            {
-                title: "LEAK-MASTER® Pro",
-                link: ''
-            },
-            {
-                title: "LEAK-MASTER® Easy",
-                link: ''
-            },
-            {
-                title: "LEAK-MASTER® Easy Plus",
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Raumluftüberwachung",
-        items: [
-            {
-                title: "RLA 100",
-                link: ''
-            },
-            {
-                title: "RLA Compact",
-                link: ''
-            },
-            {
-                title: "RLA Multichannel",
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Feuchtemessung",
-        items: [
-            {
-                title: "HYDROBABY",
-                link: ''
-            },
-            {
-                title: "MFA H20",
-                link: ''
-            }
-        ]
-    },
-    {
-        header: "Druckregler",
-        items: [
-            {
-                title: "Domdruckregler",
-                link: ''
-            },
-            {
-                title: "Dom Vordruckregler",
-                link: ''
-            },
-            {
-                title: "Regelstationen",
-                link: ''
-            },
-            {
-                title: "Federbelastete Druckregler",
-                link: ''
-            },
-            {
-                title: "Entnahmestellen",
-                link: ''
-            }
-        ]
-    }
-];
+import {MenuProductsList} from '../pageComponents/products/MenuProductsList'
 
 function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
     return (
@@ -201,15 +19,19 @@ function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
                 </a>
             </Link>
             <div
-                className="wsmegamenu w-75 clearfix"
+                className="wsmegamenu w-80 clearfix"
                 style={{
                     display: mobileMenuToggle === "home" ? "block" : "",
                 }}
             >
                 <div>
+                    <h4 style={{paddingLeft: 5, paddingTop: 10, paddingBottom: 0}}>
+                        Produktübersicht
+                    </h4>
+                    <hr style={{marginLeft: -15, marginRight: -15, color: 'gray'}}/>
                     <Tabs>
                         <TabList>
-                            {groups.map(group => {
+                            {MenuProductsList.map(group => {
                                 return (
                                     <Tab key={group.header}>
                                         <p>{group.header}</p>
@@ -217,23 +39,38 @@ function HeaderMenuProducts2({mobileMenuToggle, toggleMenu}) {
                                 )
                             })}
                         </TabList>
-                        {groups.map(group => {
+                        {MenuProductsList.map(group => {
                             return (
                                 <TabPanel key={group.header}>
-                                    <div className="menu-tabs__panel-content">
-                                        <ul className="col-lg-6 link-list ml-10">
-                                        {group.items.map(item => {
+                                    <div
+                                        className="menu-tabs__panel-content d-flex flex-wrap"
+                                        style={{rowGap: 40}}
+                                    >
+                                        {group.items.map(itemsGroup => {
                                             return (
-                                                <li key={item.title}
-                                                    className="fst-li"
-                                                >
-                                                    <Link href={item.link}>
-                                                        {item.title}
-                                                    </Link>
-                                                </li>
+                                                <>
+                                                    <ul className="col-md-12 col-lg-4"
+                                                        style={{textAlign: 'left'}}>
+                                                        <h6>
+                                                            {itemsGroup.header}
+                                                        </h6>
+                                                        {itemsGroup.items.map(item => {
+                                                            return (
+                                                                <li key={item.title}
+                                                                    style={{paddingLeft: 5}}
+                                                                >
+                                                                    <Link
+                                                                        href={item.link}
+                                                                    >
+                                                                        {item.title}
+                                                                    </Link>
+                                                                </li>
+                                                            )
+                                                        })}
+                                                    </ul>
+                                                </>
                                             )
                                         })}
-                                        </ul>
                                     </div>
                                 </TabPanel>
                             )

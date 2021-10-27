@@ -1,0 +1,105 @@
+.header {
+    position: relative;
+    padding-top: 160px;
+}
+
+.header::before {
+    content: "";
+    background-image: url(../public/images/factory-worker-service.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.05;
+}
+
+.list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.information-header {
+    color: var(--mmwcolor);
+}
+
+.section-subTitle {
+    color: gray;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.product-image {
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 5%;
+}
+
+.slider-dot-item {
+    width: 75px;
+    height: 75px;
+}
+
+.slider-dot-item:hover {
+    border: 1px solid var(--mmwcolor);
+}
+
+.slick-active .slider-dot-item {
+    border: 1px solid var(--mmwcolor);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn-datasheet {
+    color: black;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding: 12px 6px;
+    padding-left: 15px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+}
+
+.btn-datasheet:hover {
+    padding-left: 25px;
+}
+
+.btn-contact {
+    color: white;
+    border: 1px solid lightgray;
+    background-color: var(--mmwcolor);
+    padding: 12px 6px;
+    padding-left: 15px;
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+}
+
+.btn-contact:hover {
+    padding-left: 25px;
+}
+
+.download-item {
+    transition: all .3s ease-in-out;
+    text-align: left;
+}
+
+.download-item div p {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.download-item div span {
+    font-size: .9rem;
+}
+
+.download-item:hover {
+    padding-left: 20px;
+    cursor: pointer;
+}

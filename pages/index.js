@@ -6,6 +6,7 @@ import InfoGasSafety from "../src/pageComponents/home/InfoGasSafety";
 import InfoService from "../src/pageComponents/home/InfoService";
 import InfoSoftwareDevelopment from "../src/pageComponents/home/InfoSoftwareDevelopment";
 import LastContent from "../src/pageComponents/home/LastContent";
+import Brands from "../src/pageComponents/home/Brands";
 
 const meta = {
     title: "MMW Analytics Solutions ihr Spezialist für ",
@@ -19,6 +20,7 @@ const Index = () => {
     return (
         <Layout navLight navHoverColor="nav-blue-hover" meta={meta}>
             <Hero/>
+            {/*<Brands/>*/}
             <InfoMapQS/>
             <hr className='divider'/>
             <InfoGasMischAnalyse/>

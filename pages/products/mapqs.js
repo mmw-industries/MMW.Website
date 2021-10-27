@@ -1,11 +1,11 @@
-import Layout from "../../../src/layout/Layout";
-import Hero from "../../../src/pageComponents/products/mapqs/Hero";
-import Faqs from "../../../src/pageComponents/products/mapqs/Faqs";
-import LiveView from "../../../src/pageComponents/products/mapqs/LiveView";
-import Content1 from "../../../src/pageComponents/products/mapqs/Content1";
-import ThreeSteps from "../../../src/pageComponents/products/mapqs/ThreeSteps";
-import Devices from "../../../src/pageComponents/products/mapqs/Devices";
-import Content2 from "../../../src/pageComponents/products/mapqs/Content2";
+import Layout from "../../src/layout/Layout";
+import Hero from "../../src/pageComponents/products/mapqs/Hero";
+import Faqs from "../../src/pageComponents/products/mapqs/Faqs";
+import LiveView from "../../src/pageComponents/products/mapqs/LiveView";
+import Content1 from "../../src/pageComponents/products/mapqs/Content1";
+import ThreeSteps from "../../src/pageComponents/products/mapqs/ThreeSteps";
+import Devices from "../../src/pageComponents/products/mapqs/Devices";
+import Content2 from "../../src/pageComponents/products/mapqs/Content2";
 
 const meta = {
     title: "MapQS - Die neue Dimension in der Qualitätssicherung",
@@ -15,7 +15,7 @@ const meta = {
     og_url: "https://mmw.industries/products/mapqs",
 };
 
-function Index() {
+function Mapqs() {
     return (
         <Layout navLight
                 navHoverColor="nav-blue-hover"
@@ -34,4 +34,4 @@ function Index() {
     )
 }
 
-export default Index;
+export default Mapqs;

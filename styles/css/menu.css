@@ -1444,18 +1444,23 @@ video {
 }
 
 .react-tabs__tab {
-  height: 70px;
+  height: 50px;
+  width: 250px;
   list-style: none;
   padding: 12px 6px;
   cursor: pointer;
-  color: #bbb;
+  color: black;
 }
 
 .react-tabs__tab--selected {
-  background: blue;
-  border-color: #1c1d1f;
-  border-left: 4px solid blue;
   color: white;
+  margin-right: -1px;
+  border: 0px solid transparent;
+  vertical-align: middle;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation: tabSelected 1s;
+  background-color: var(--mmwcolor);
 }
 
 .react-tabs__tab-panel {
@@ -1476,5 +1481,19 @@ video {
 }
 
 .menu-tabs__panel-content {
+  height: 100%;
   text-align: center;
+  border: 0px;
+  border-left: 2px solid var(--mmwcolor);
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+  padding: 15px;
+}
+@keyframes tabUnSelected {
+  to {background-color: white;}
+}
+
+@keyframes tabSelected {
+  from {background-color: white; color: black;}
+  to {background-color: var(--mmwcolor); color: white;}
 }
