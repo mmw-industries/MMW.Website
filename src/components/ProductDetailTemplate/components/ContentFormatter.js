@@ -1,3 +1,5 @@
+import uuid from 'react-uuid'
+
 function ContentFormatter({data}) {
     return (
         <>
@@ -5,13 +7,13 @@ function ContentFormatter({data}) {
                 data.map(item => {
                     if (typeof item === 'string') {
                         return (
-                            <p>{item}</p>
+                            <p key={uuid()}>{item}</p>
                         )
                     }
                     if (typeof item === 'object' && item.type) {
                         if (item.type === 'span') {
                             return (
-                                <div className="pt-5">
+                                <div key={uuid()} className="pt-5">
                                     {item.content.split("\n").map(item2 => {
                                             return (
                                                 <span>
@@ -25,7 +27,7 @@ function ContentFormatter({data}) {
                         }
                         if (item.type === 'list') {
                             return (
-                                <>
+                                <div key={uuid()}>
                                     {item.header && item.header !== "" && (
                                         <p className="section-subTitle">
                                             {item.header}
@@ -34,11 +36,11 @@ function ContentFormatter({data}) {
                                     <ul className="list">
                                         {item.items.map(item => {
                                             return (
-                                                <li>{item}</li>
+                                                <li key={uuid()}>{item}</li>
                                             )
                                         })}
                                     </ul>
-                                </>
+                                </div>
                             )
                         }
                     }
