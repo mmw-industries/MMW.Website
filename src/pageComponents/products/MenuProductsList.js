@@ -1,18 +1,121 @@
 export const MenuProductsList = [
     {
-        header: "Qualitätssicherung",
+        header: "Gasmischer",
         items: [
             {
-                header: "Software",
+                header: "MAP",
                 items: [
                     {
-                        title: 'MapQS',
-                        link: '/products/mapqs'
+                        title: 'KM-M Serie',
+                        link: '/products/gasmixer-km-m-series'
                     },
                     {
-                        title: 'OBCC',
-                        link: '/products/obcc'
+                        title: 'KM-M+ Serie',
+                        link: '/404'
+                    },
+                    {
+                        title: 'KM-MEM Serie',
+                        link: '/products/gasmixer-km-mem-series'
+                    },
+                    {
+                        title: 'KM-MEM+ Serie',
+                        link: '/products/gasmixer-km-mem-plus-series'
+                    },
+                    {
+                        title: 'MG-MEM+ Serie',
+                        link: '/products/gasmixer-mg-mem-plus-series'
+                    },
+                    {
+                        title: 'KM-FLOW Map Serie',
+                        link: '/products/gasmixer-km-flow-map-series'
                     }
+                ]
+            },
+            {
+                header: "Nicht brennbare Gase",
+                items: [
+
+                ]
+            },
+            {
+                header: "Brennbare Gase",
+                items: [
+
+                ]
+            },
+            {
+                header: "Kleimischer",
+                items: [
+                    {
+                        title: 'MM-Flex',
+                        link: '/products/gasmixer-mm-flex'
+                    },
+                    {
+                        title: 'MM-Flex Ex',
+                        link: '/products/gasmixer-mm-flex-ex'
+                    },
+                    {
+                        title: 'BM-2M',
+                        link: '/products/gasmixer-bm-2m'
+                    },
+                    {
+                        title: 'KM10-2 FLEX',
+                        link: '/products/gasmixer-km10-2-flex'
+                    },
+                    {
+                        title: 'KM10-2 FLEX Ex',
+                        link: '/products/gasmixer-km10-2-flex-ex'
+                    },
+                    {
+                        title: 'MM-2K / -2G',
+                        link: '/products/gasmixer-mm-2k-2g'
+                    },
+                    {
+                        title: 'KM20-ECO',
+                        link: '/products/gasmixer-km20-eco'
+                    }
+                ]
+            },
+            {
+                header: "Zubehör",
+                items: [
+                    {
+                        title: 'Gasbehälter',
+                        link:'/products/gas-tank'
+                    },
+                    {
+                        title: 'Eingangsdrucküberwachung AM3',
+                        link: '/products/am3'
+                    },
+                    {
+                        title: 'Auswertesystem AWS-Analog',
+                        link: '/products/aws-analog'
+                    }
+                ]
+            },
+            {
+                header: "Sonstige",
+                items: [
+                    {
+                        title: 'Gasmischer in der Lasertechnologie',
+                        link: '/products/gasmixer-lasertechnologie'
+                    },
+                    {
+                        title: 'Umschaltstation',
+                        link: '/products/gasmixer-switch-station'
+                    },
+                    {
+                        title: 'MDE_MFC zur Brenner-Versorgung',
+                        link: '/products/gasmixer-mde_mfc'
+                    },
+                    {
+                        title: 'MDV für außenmischende Brenner',
+                        link: '/products/gasmixer-mdv-outside'
+                    },
+                    {
+                        title: 'MDV für Vorgemischbrenner',
+                        link: '/products/gasmixer-mdv'
+                    },
                 ]
             }
         ]
@@ -125,6 +228,24 @@ export const MenuProductsList = [
                         title: "Barcode-Reader",
                         link: '/products/barcode-reader'
                     },
+                ]
+            }
+        ]
+    },
+    {
+        header: "Qualitätssicherung",
+        items: [
+            {
+                header: "Software",
+                items: [
+                    {
+                        title: 'MapQS',
+                        link: '/products/mapqs'
+                    },
+                    {
+                        title: 'OBCC',
+                        link: '/products/obcc'
+                    }
                 ]
             }
         ]
@@ -257,143 +378,4 @@ export const MenuProductsList = [
             }
         ]
     },
-    // {
-    //     header: "Gasmischer",
-    //     items: [
-    //         {
-    //             header: "MAP",
-    //             items: [
-    //                 {
-    //                     title: 'KM-M Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-M+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'MG-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             header: "Nicht brenbare Gase",
-    //             items: [
-    //                 {
-    //                     title: 'KM-M Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-M+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'MG-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             header: "Brenbare Gase",
-    //             items: [
-    //                 {
-    //                     title: 'KM-M Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-M+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'MG-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             header: "Sonstige",
-    //             items: [
-    //                 {
-    //                     title: 'KM-M Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-M+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'MG-MEM Serie',
-    //                     link: ''
-    //                 },
-    //                 {
-    //                     title: 'KM-MEM+ Serie',
-    //                     link: ''
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     header: "Druckregler",
-    //     items: [
-    //
-    //     ]
-    // },
-    // {
-    //     header: "Entnahmestellen",
-    //     items: [
-    //
-    //     ]
-    // },
-    // {
-    //     header: "Gasarmaturen",
-    //     items: [
-    //
-    //     ]
-    // }
 ];

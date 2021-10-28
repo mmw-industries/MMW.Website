@@ -1,7 +1,8 @@
 import Link from "next/link";
 import {useEffect, useState} from "react";
 import {scroll} from "../utils/utils";
-import HeaderMenuProducts2 from "./HeaderMenuProducts2";
+import HeaderMenuProducts from "./HeaderMenuProducts";
+import HeaderMenuProductsMobile from "./HeaderMenuProductsMobile";
 
 const Header = ({
                     navLight,
@@ -80,7 +81,7 @@ const Header = ({
                                     navHoverColor ? navHoverColor : "nav-skyblue-hover"
                                 }`}
                             >
-                                <HeaderMenuProducts2
+                                <HeaderMenuProducts
                                     mobileMenuToggle={mobileMenuToggle}
                                     toggleMenu={toggleMenu}
                                 />
@@ -94,6 +95,9 @@ const Header = ({
                                     navHoverColor ? navHoverColor : "nav-skyblue-hover"
                                 }`}
                             >
+                                <li className="nl-simple d-lg-none w-100">
+                                    <Link href="/products">Produkte</Link>
+                                </li>
                                 <li className="nl-simple">
                                     <Link href="/contacts">Kontakt</Link>
                                 </li>

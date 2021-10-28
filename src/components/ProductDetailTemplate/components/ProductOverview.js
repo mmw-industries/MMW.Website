@@ -43,6 +43,17 @@ function ProductOverview({data}) {
                                                 </Button>
                                             </div>
                                         )}
+                                        {data.datasheetScrollToDownloads && (
+                                            <div className="col-sm-12 col-xl-6">
+                                                <Button
+                                                    className="btn-datasheet d-flex flex-row align-items-center gap-3"
+                                                    onClick={() => window.location = '#downloads'}
+                                                >
+                                                    <AiOutlineFilePdf size={25}/>
+                                                    Datenblätter
+                                                </Button>
+                                            </div>
+                                        )}
                                         <div className="col-sm-12 col-xl-6">
                                             <Button
                                                 className="btn-contact d-flex flex-row align-items-center gap-3"

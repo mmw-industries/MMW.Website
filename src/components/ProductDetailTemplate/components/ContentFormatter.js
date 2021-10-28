@@ -43,6 +43,9 @@ function ContentFormatter({data}) {
                                 </div>
                             )
                         }
+                        if(item.type === 'html') {
+                            return item.content();
+                        }
                     }
                 })
             )}

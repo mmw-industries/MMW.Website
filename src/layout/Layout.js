@@ -26,7 +26,7 @@ const Layout = ({
     return (
         <Fragment>
             <Head>
-                <title>{(meta && meta.title) || "MMW Analytics Solutions GmbH"}</title>
+                <title>{`${meta && meta.title ? meta.title + ' | ' : ''}MMW Analytics Solutions GmbH`}</title>
                 <link
                     rel="shortcut icon"
                     type="image/x-icon"

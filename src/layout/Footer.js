@@ -71,7 +71,7 @@ const Footer = () => {
                                 <li className="last-li">
                                     <p>
                                         <a
-                                            href="https://instagram.com/"
+                                            href="https://www.instagram.com/mmwindustries"
                                             target="_blank"
                                         >
                                             Instagram
