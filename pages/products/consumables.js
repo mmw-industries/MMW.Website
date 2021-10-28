@@ -5,7 +5,7 @@ const meta = {
     description: "Ersatzplättchen, Nadeln, Sensoren, Akku etc. für OXYBABY®, PA, MAPY, MFA",
     keywords: "",
     og_image: "https://www.wittgas.com/fileadmin/_processed_/8/5/csm_Oxybaby_Zubehoer_f11e591810.jpg",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/products/consumables",
 };
 
 const data = {

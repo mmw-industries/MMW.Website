@@ -5,7 +5,7 @@ const meta = {
     description: "Impressum der MMW Analytics Solutions GmbH.",
     keywords: "MMW, Industries, MMW Industries",
     og_image: "https://mmw.industries/impressum.jpg",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/impressum",
 };
 
 function Impressum() {

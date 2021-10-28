@@ -7,7 +7,7 @@ const meta = {
     description: "Nehmen Sie mit einem unserer Spezialisten von MMW Analytics Solutions GmbH Kontakt auf.",
     keywords: "MMW, Industries, MMW Industries, Contact",
     og_image: "https://mmw.industries/images/contact.jpg",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/contacts",
 };
 
 const Contacts = () => {

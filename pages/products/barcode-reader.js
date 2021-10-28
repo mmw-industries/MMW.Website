@@ -5,7 +5,7 @@ const meta = {
     description: "Zur Auswahl von Produktnamen und Benutzern via Barcode für MAPY, LEAK-MASTER® EASY PLUS, PRO und MAPMAX",
     keywords: "Barcode-Reader, MAPY, LEAK-MASTER®, LEAK-MASTER® EASY PLUS, LEAK-MASTER® PRO , LEAK-MASTER® MAPMAX",
     og_image: "https://www.wittgas.com/fileadmin/_processed_/7/f/csm_barcode_reader_IP65_d8061035a0.jpg",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/products/barcode-reader",
 };
 
 const data = {

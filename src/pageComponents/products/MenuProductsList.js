@@ -11,128 +11,7 @@ export const MenuProductsList = [
                     },
                     {
                         title: 'OBCC',
-                        link: ''
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        header: "Gasmischer",
-        items: [
-            {
-                header: "MAP",
-                items: [
-                    {
-                        title: 'KM-M Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-M+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'MG-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    }
-                ]
-            },
-            {
-                header: "Nicht brenbare Gase",
-                items: [
-                    {
-                        title: 'KM-M Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-M+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'MG-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    }
-                ]
-            },
-            {
-                header: "Brenbare Gase",
-                items: [
-                    {
-                        title: 'KM-M Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-M+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'MG-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    }
-                ]
-            },
-            {
-                header: "Sonstige",
-                items: [
-                    {
-                        title: 'KM-M Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-M+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'MG-MEM Serie',
-                        link: ''
-                    },
-                    {
-                        title: 'KM-MEM+ Serie',
-                        link: ''
+                        link: '/products/obcc'
                     }
                 ]
             }
@@ -142,7 +21,7 @@ export const MenuProductsList = [
         header: "Gasanalyse",
         items: [
             {
-                header: "Mobile",
+                header: "Protable / Tragbare",
                 items: [
                     {
                         title: "OXYBABY® 6.0",
@@ -166,6 +45,11 @@ export const MenuProductsList = [
                         title: "OXYBABY® MED",
                         link: '/products/oxybaby-med'
                     },
+                ]
+            },
+            {
+                header: "Tischgeräte",
+                items: [
                     {
                         title: "Mapy 4.0",
                         link: '/products/mapy-4'
@@ -177,7 +61,7 @@ export const MenuProductsList = [
                 ]
             },
             {
-                header: "Inline",
+                header: "Online / Inline",
                 items: [
                     {
                         title: "PA 7.0",
@@ -191,10 +75,6 @@ export const MenuProductsList = [
                         title: "MAPY VAC",
                         link: '/products/mapy-vac'
                     },
-                    {
-                        title: "Inline Gasanalysator",
-                        link: '/products/inline-analyser'
-                    },
                 ]
             },
             {
@@ -207,7 +87,11 @@ export const MenuProductsList = [
                     {
                         title: "MFA 9000",
                         link: '/products/mfa9000'
-                    }
+                    },
+                    {
+                        title: "Inline Gasanalysator",
+                        link: '/products/inline-analyser'
+                    },
                 ]
             },
             {
@@ -249,37 +133,75 @@ export const MenuProductsList = [
         header: "Dichtheitsprüfung",
         items: [
             {
-                header: "Wasserbad",
+                header: "Auf Wasserbad-Basis",
                 items: [
                     {
                         title: "LEAK-MASTER® Easy",
-                        link: ''
+                        link: '/products/leak-master-easy'
                     },
                     {
                         title: "LEAK-MASTER® Easy Plus",
-                        link: ''
+                        link: '/products/leak-master-easy-plus'
+                    },
+                    {
+                        title: "Steuereinheit PLUS",
+                        link: '/products/leak-master-control-plus'
                     }
                 ]
             },
             {
-                header: "Stichproben",
+                header: "Verpackungen auf CO2-Basis",
                 items: [
                     {
                         title: "LEAK-MASTER® Pro",
-                        link: ''
+                        link: '/products/leak-master-pro'
+                    },
+                    {
+                        title: "LEAK-MASTER® Pro 2",
+                        link: '/products/leak-master-pro-2'
                     },
                 ]
             },
             {
-                header: "Inline",
+                header: "Online / Inline",
                 items: [
                     {
                         title: "LEAK-MASTER® MapMax",
-                        link: ''
+                        link: '/products/leak-master-mapmax'
                     },
                     {
                         title: "LEAK-MASTER® MapMax Compact",
-                        link: ''
+                        link: '/products/leak-master-mapmax-compact'
+                    },
+                ]
+            },
+            {
+                header: "Sonstige",
+                items: [
+                    {
+                        title: "PATBOX",
+                        link: '/products/patbox'
+                    }
+                ]
+            },
+            {
+                header: "Zubehör",
+                items: [
+                    {
+                        title: "Vakuum Set LEAK-MASTER® EASY",
+                        link: '/products/leak-master-easy-vakuum-set'
+                    },
+                    {
+                        title: "ASTM Set LEAK-MASTER® EASY",
+                        link: '/products/leak-master-easy-astm-set'
+                    },
+                    {
+                        title: "Manometer AD100",
+                        link: '/products/manometer-ad100'
+                    },
+                    {
+                        title: "Barcode-Reader",
+                        link: '/products/barcode-reader'
                     },
                 ]
             }
@@ -289,19 +211,24 @@ export const MenuProductsList = [
         header: "Raumluftüberwachung",
         items: [
             {
-                header: "RLA Serie",
+                header: "CO2",
                 items: [
                     {
                         title: "RLA 100",
-                        link: ''
+                        link: '/products/rla-100'
                     },
+                ]
+            },
+            {
+                header: "toxische Gase oder O2",
+                items: [
                     {
                         title: "RLA Compact",
-                        link: ''
+                        link: '/products/rla-compact'
                     },
                     {
                         title: "RLA Multichannel",
-                        link: ''
+                        link: '/products/rla-multi'
                     }
                 ]
             }
@@ -311,11 +238,11 @@ export const MenuProductsList = [
         header: "Feuchtemessung",
         items: [
             {
-                header: "Mobil",
+                header: "Portable / Tragbare",
                 items: [
                     {
                         title: "HYDROBABY",
-                        link: ''
+                        link: '/products/hydrobaby'
                     }
                 ]
             },
@@ -324,50 +251,149 @@ export const MenuProductsList = [
                 items: [
                     {
                         title: "MFA H20",
-                        link: ''
+                        link: '/products/mfa-h20'
                     }
                 ]
             }
         ]
     },
-    {
-        header: "Druckregler",
-        items: [
-
-        ]
-    },
-    {
-        header: "Entnahmestellen",
-        items: [
-
-        ]
-    },
-    {
-        header: "Gasarmaturen",
-        items: [
-
-        ]
-    }
-
     // {
-    //     header: "Gasanalyse Inline",
+    //     header: "Gasmischer",
     //     items: [
     //         {
-    //             title: "KM Mapy Serie",
-    //             link: ''
+    //             header: "MAP",
+    //             items: [
+    //                 {
+    //                     title: 'KM-M Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-M+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'MG-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 }
+    //             ]
     //         },
     //         {
-    //             title: "Mapy 4.0 LE",
-    //             link: ''
+    //             header: "Nicht brenbare Gase",
+    //             items: [
+    //                 {
+    //                     title: 'KM-M Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-M+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'MG-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 }
+    //             ]
     //         },
     //         {
-    //             title: "KD",
-    //             link: ''
+    //             header: "Brenbare Gase",
+    //             items: [
+    //                 {
+    //                     title: 'KM-M Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-M+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'MG-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 }
+    //             ]
     //         },
     //         {
-    //             title: "Mapy Vac",
-    //             link: ''
+    //             header: "Sonstige",
+    //             items: [
+    //                 {
+    //                     title: 'KM-M Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-M+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'MG-MEM Serie',
+    //                     link: ''
+    //                 },
+    //                 {
+    //                     title: 'KM-MEM+ Serie',
+    //                     link: ''
+    //                 }
+    //             ]
     //         }
     //     ]
     // },
+    // {
+    //     header: "Druckregler",
+    //     items: [
+    //
+    //     ]
+    // },
+    // {
+    //     header: "Entnahmestellen",
+    //     items: [
+    //
+    //     ]
+    // },
+    // {
+    //     header: "Gasarmaturen",
+    //     items: [
+    //
+    //     ]
+    // }
 ];

@@ -5,7 +5,7 @@ const meta = {
     description: "Datenschutzerklärung der MMW Analytics Solutions GmbH.",
     keywords: "MMW, Industries, MMW Industries",
     og_image: "https://mmw.industries/images/data-protection.jpg",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/privacy",
 };
 
 function Privacy() {

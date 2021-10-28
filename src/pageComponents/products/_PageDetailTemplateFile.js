@@ -5,7 +5,7 @@ const meta = {
     description: "",
     keywords: "",
     og_image: "",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/products/xxxx",
 };
 
 const data = {

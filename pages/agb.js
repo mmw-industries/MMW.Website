@@ -6,7 +6,7 @@ const meta = {
     description: "Aktuell gültigen Geschäftsbedingungen der MMW Analytics Solutions GmbH.",
     keywords: "MMW, Industries, MMW Industries",
     og_image: "https://mmw.industries/images/agbs.jpg",
-    og_url: "https://mmw.industries/",
+    og_url: "https://mmw.industries/agb",
 };
 
 function Agb() {
