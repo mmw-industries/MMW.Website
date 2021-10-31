@@ -3,7 +3,7 @@ export const MenuProductsList = [
         header: "Gasmischer",
         items: [
             {
-                header: "MAP",
+                header: "MAP / Lebensmittel",
                 items: [
                     {
                         title: 'KM-M Serie',
@@ -34,18 +34,44 @@ export const MenuProductsList = [
             {
                 header: "Nicht brennbare Gase",
                 items: [
-
+                    {
+                        title: 'KM-ME Serie',
+                        link: '/products/gasmixer-km-me-series'
+                    },
+                    {
+                        title: 'MG-ME Serie',
+                        link: '/products/gasmixer-mg-me-series'
+                    },
+                    {
+                        title: 'MG Fix Serie',
+                        link: '/products/gasmixer-mg-fix-series'
+                    },
+                    {
+                        title: 'MG Flex Serie',
+                        link: '/products/gasmixer-mg-flex-series'
+                    }
                 ]
             },
             {
                 header: "Brennbare Gase",
                 items: [
-
+                    {
+                        title: 'KM-ME Ex Serie',
+                        link: '/products/gasmixer-km-me-ex-series'
+                    },
+                    {
+                        title: 'MG-ME Ex Serie',
+                        link: '/products/gasmixer-mg-me-ex-series'
+                    },
                 ]
             },
             {
                 header: "Kleimischer",
                 items: [
+                    {
+                        title: 'MM-2K / -2G',
+                        link: '/products/gasmixer-mm-2k-2g'
+                    },
                     {
                         title: 'MM-Flex',
                         link: '/products/gasmixer-mm-flex'
@@ -59,16 +85,20 @@ export const MenuProductsList = [
                         link: '/products/gasmixer-bm-2m'
                     },
                     {
+                        title: 'KM Serie',
+                        link: '/products/gasmixer-km-series'
+                    },
+                    {
+                        title: 'KM Ex Serie',
+                        link: '/products/gasmixer-km-ex-series'
+                    },
+                    {
                         title: 'KM10-2 FLEX',
                         link: '/products/gasmixer-km10-2-flex'
                     },
                     {
                         title: 'KM10-2 FLEX Ex',
                         link: '/products/gasmixer-km10-2-flex-ex'
-                    },
-                    {
-                        title: 'MM-2K / -2G',
-                        link: '/products/gasmixer-mm-2k-2g'
                     },
                     {
                         title: 'KM20-ECO',
@@ -233,24 +263,6 @@ export const MenuProductsList = [
         ]
     },
     {
-        header: "Qualitätssicherung",
-        items: [
-            {
-                header: "Software",
-                items: [
-                    {
-                        title: 'MapQS',
-                        link: '/products/mapqs'
-                    },
-                    {
-                        title: 'OBCC',
-                        link: '/products/obcc'
-                    }
-                ]
-            }
-        ]
-    },
-    {
         header: "Dichtheitsprüfung",
         items: [
             {
@@ -324,6 +336,24 @@ export const MenuProductsList = [
                         title: "Barcode-Reader",
                         link: '/products/barcode-reader'
                     },
+                ]
+            }
+        ]
+    },
+    {
+        header: "Qualitätssicherung",
+        items: [
+            {
+                header: "Software",
+                items: [
+                    {
+                        title: 'MapQS',
+                        link: '/products/mapqs'
+                    },
+                    {
+                        title: 'OBCC',
+                        link: '/products/obcc'
+                    }
                 ]
             }
         ]
