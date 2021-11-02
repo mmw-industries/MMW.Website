@@ -68,13 +68,23 @@ const Footer = () => {
                                             Facebook</a>
                                     </p>
                                 </li>
-                                <li className="last-li">
+                                <li>
                                     <p>
                                         <a
                                             href="https://www.instagram.com/mmwindustries"
                                             target="_blank"
                                         >
                                             Instagram
+                                        </a>
+                                    </p>
+                                </li>
+                                <li className="last-li">
+                                    <p>
+                                        <a
+                                            href="https://www.pinterest.com/mmwindustries"
+                                            target="_blank"
+                                        >
+                                            Pinterest
                                         </a>
                                     </p>
                                 </li>
