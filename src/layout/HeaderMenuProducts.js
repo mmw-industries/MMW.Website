@@ -13,7 +13,7 @@ function HeaderMenuProducts({mobileMenuToggle, toggleMenu}) {
             >
                 <i className="wsmenu-arrow"/>
             </span>
-            <Link href="#">
+            <Link href="/products">
                 <a>
                     Produkte <span className="wsarrow"/>
                 </a>

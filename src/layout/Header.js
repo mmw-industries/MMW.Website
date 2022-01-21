@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import {scroll} from "../utils/utils";
 import HeaderMenuProducts from "./HeaderMenuProducts";
 import HeaderMenuProductsMobile from "./HeaderMenuProductsMobile";
+import HeaderMenuCompany from "./HeaderMenuCompany";
 
 const Header = ({
                     navLight,
@@ -82,6 +83,10 @@ const Header = ({
                                 }`}
                             >
                                 <HeaderMenuProducts
+                                    mobileMenuToggle={mobileMenuToggle}
+                                    toggleMenu={toggleMenu}
+                                />
+                                <HeaderMenuCompany
                                     mobileMenuToggle={mobileMenuToggle}
                                     toggleMenu={toggleMenu}
                                 />
