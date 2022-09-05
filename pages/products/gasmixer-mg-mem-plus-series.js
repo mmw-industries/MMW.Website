@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer MG MEM+ Serie",
     description: "Elektronischer Gasmischer für 2 oder 3 Gase mit motorgesteuerter Mischventiltechnik, für höhere Durchflüsse",
     keywords: "Elektronischer Gasmischer, 2 Gase, 3 Gase, motorgesteuert, MAP",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/f/4/csm_witt_gas_mixer_mg50-mem_._7b3beba7b1.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mg50-mem__5a4ee388eb.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mg-mem-plus-series",
 };
 
@@ -28,7 +28,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/f/4/csm_witt_gas_mixer_mg50-mem_._7b3beba7b1.png"
+        "csm_witt_gas_mixer_mg50-mem__5a4ee388eb.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg50_2_3mem_plus_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -76,10 +76,18 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/4/csm_gasmischer_mg50_2_3mem_plus_d_a7bc91b6b4.png",
+            image: "csm_gasmischer_mg50_2_3mem_plus_d_af0af83237.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg50_2_3mem_plus_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_witt_gas_pressure_receiver_steel_250l_2_bf4515c6c8.png.webp",
+            link: "https://www.mmw.industries/products/gas-tank",
+            title: "Gasbehälter",
+            content: "Druckbehälter für Mischgas aus Stahl oder Edelstahl"
         }
     ]
 };

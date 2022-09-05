@@ -4,7 +4,7 @@ const meta = {
     title: "Verpackungsdichtheitsprüfer LEAK-MASTER® PRO",
     description: "Dichtheitsprüfung für große Verpackungen oder Kartons auf CO2-Basis",
     keywords: "Dichtheitsprüfung, CO2, große Verpackungen, Kartions",
-    og_image: "",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_leak_detector_leak_master_pro_b3ff2918bc.png.webp",
     og_url: "https://mmw.industries/products/leak-master-pro",
 };
 
@@ -26,7 +26,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/0/f/csm_witt_leak_detector_leak_master_pro_58ceec0902.png"
+        "csm_witt_leak_detector_leak_master_pro_b3ff2918bc.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -67,28 +67,36 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/6/6/csm_dichtheitspruefung_leak_master_d_dc3c3c4f3d.png",
+            image: "csm_dichtheitspruefung_leak_master_d_af1019a6ad.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/6/csm_MAP_Dichtheitspruefung_33cfa6b536.png",
+            image: "Broschuere_Leaktest.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Dichtheitspruefung.pdf",
             title: "Broschüre Dichtheitsprüfung",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/1/csm_MAP_D_f6b462f88e.png",
+            image: "Broschuere_Packaging.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_D.pdf",
             title: "Broschüre WITT Lösungen für MAP Verpackungen",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_obst_gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_barcode_reader_IP65_653ecb4264.jpg.webp",
+            link: "https://www.mmw.industries/products/barcode-reader",
+            title: "Barcode-Reader",
+            content: "Zur Auswahl von Produktnamen und Benutzern via Barcode für MAPY, LEAK-MASTER® EASY PLUS, PRO und MAPMAX"
         }
     ]
 };

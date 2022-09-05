@@ -4,7 +4,7 @@ const meta = {
     title: "Gasanalysator OXYBABY® M+ P",
     description: "O2- bzw. O2/CO2-Gasanalysator für Druckleitungen, Premiumversion",
     keywords: "Oxybaby, Oxybaby M+ P, Gasanalysator, O2, CO2, mobile, Druckleitungen,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/5/0/csm_witt_gas_analyser_oxybaby_mplus_p_a350515771.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_oxybaby_mplus_p_0bc712bf38.png.webp",
     og_url: "https://mmw.industries/products/oxybaby-mplus-p",
 };
 
@@ -27,8 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/5/0/csm_witt_gas_analyser_oxybaby_mplus_p_a350515771.png",
-        "https://www.wittgas.com/fileadmin/_processed_/7/e/csm_carrying_case_for_witt_oxybaby_c00b3f3e3d.png",
+        "csm_witt_gas_analyser_oxybaby_mplus_p_0bc712bf38.png.webp",
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_p_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -76,7 +75,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/6/csm_gasanalysator_oxybaby_p_d_c39b060542.png",
+            image: "csm_gasanalysator_oxybaby_p_d_1e4e5986ca.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_p_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

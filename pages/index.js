@@ -7,6 +7,7 @@ import InfoService from "../src/pageComponents/home/InfoService";
 import InfoSoftwareDevelopment from "../src/pageComponents/home/InfoSoftwareDevelopment";
 import LastContent from "../src/pageComponents/home/LastContent";
 import Brands from "../src/pageComponents/home/Brands";
+import Goals from "../src/pageComponents/home/Goals";
 
 const meta = {
     title: "MMW Analytics Solutions ihr Spezialist für ",
@@ -29,6 +30,7 @@ const Index = () => {
             <hr className='divider'/>
             <InfoService/>
             <InfoSoftwareDevelopment/>
+            <Goals/>
             <LastContent/>
         </Layout>
     );

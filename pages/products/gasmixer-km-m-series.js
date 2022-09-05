@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer KM - M Serie",
     description: "Gasmischer für 2 oder 3 Gase, speziell für MAP-Verpackungsmaschinen",
     keywords: "Gasmsicher, MAP, 2 Gase, 3 Gase",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/0/9/csm_witt_gas_mixer_km100_2m_6378be2a63.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km100_2m_e35c3cf4c2.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-km-m-series"
 };
 
@@ -30,10 +30,10 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/0/9/csm_witt_gas_mixer_km100_2m_6378be2a63.png",
-        "https://www.wittgas.com/fileadmin/_processed_/5/3/csm_witt_gas_mixer_km100_3m_201116ca8e.png",
-        "https://www.wittgas.com/fileadmin/_processed_/6/4/csm_witt_gas_mixer_km300-600-2me_b59249e277.png",
-        "https://www.wittgas.com/fileadmin/_processed_/7/a/csm_witt_gas_mixer_km300-600-3me_5dab0a8752.png"
+        "csm_witt_gas_mixer_km100_2m_e35c3cf4c2.png.webp",
+        "csm_witt_gas_mixer_km100_3m_e3f46a58f8.png.webp",
+        "csm_witt_gas_mixer_km300-600-2m_c690db2d83.png.webp",
+        "csm_witt_gas_mixer_km300-600-3m_9738666a50.png.webp"
     ],
     datasheetLink: "",
     datasheetScrollToDownloads: true,
@@ -81,28 +81,36 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/7/2/csm_gasmischer_km100_200_2_3m_d_4035889817.png",
+            image: "csm_gasmischer_km100_200_2_3m_d_93cb2778e1.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km100_200_2_3m_d.pdf",
             title: "Datenblatt KM100-200",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/9/3/csm_gasmischer_km300_600_2_3m_d_7f51a1180a.png",
+            image: "csm_gasmischer_km300_600_2_3m_d_505a7c76a8.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km300_600_2_3m_d.pdf",
             title: "Datenblatt KM300-600",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_Obst_Gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_witt_gas_analyser_mapy_unit_7720be133d.png.webp",
+            link: "https://www.mmw.industries/products/inline-analyser",
+            title: "Inline Gasanalysator",
+            content: "Einschubmodul zur permanenten Kontrolle des Gasgemisches für z.B. CO2, O2, H2, He"
         }
     ]
 };

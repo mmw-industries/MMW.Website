@@ -41,7 +41,7 @@ function Privacy() {
                             MMW Analytics Solutions GmbH
                         </strong>
                         <p>
-                            Aredstraße 11/8<br/>
+                            Aumühlweg 21/3/323<br/>
                             2544 Leobersdorf<br/>
                             Österreich<br/>
                             Firmenbuch: FN 541180d f Landesgericht Wiener Neustadt<br/>

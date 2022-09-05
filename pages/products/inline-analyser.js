@@ -4,7 +4,7 @@ const meta = {
     title: "Inline Gasanalysator",
     description: "Einschubmodul zur permanenten Kontrolle des Gasgemisches für z.B. CO2, O2, H2, He",
     keywords: "Einschubmodul, permanent, Kontrolle, CO2, O2, H2, He, Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/0/d/csm_witt_gas_analyser_mapy_unit_7a30384a7b.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_mapy_unit_b9dc384321.png.webp",
     og_url: "https://mmw.industries/products/inline-analyser",
 };
 
@@ -26,7 +26,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/0/d/csm_witt_gas_analyser_mapy_unit_7a30384a7b.png"
+        "csm_witt_gas_analyser_mapy_unit_b9dc384321.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -70,7 +70,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/f/csm_gasanalysator_d_b30434b83e.png",
+            image: "csm_gasanalysator_d_b82f4ff556.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

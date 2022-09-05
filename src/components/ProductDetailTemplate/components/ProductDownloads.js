@@ -24,7 +24,7 @@ function ProductDownloads({data}) {
                                                     <img
                                                         style={{objectFit: 'contain'}}
                                                         className="shadow-sm"
-                                                        src={item.image}
+                                                        src={"/images/products/" + item.image}
                                                         width={100}
                                                         height={150}
                                                     />

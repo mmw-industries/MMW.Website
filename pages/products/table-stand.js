@@ -4,7 +4,7 @@ const meta = {
     title: "Tischständer",
     description: "Edelstahl-Tischständer für OXYBABY®",
     keywords: "Edelstahl-Tischständer, OXYBABY®",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/b/f/csm_witt_gas_analyser_oxybaby_6_on_table_stand_a2f7a44db7.png",
+    og_image: "https://www.mmw.industries/images/products/",
     og_url: "https://mmw.industries/products/table-stand",
 };
 
@@ -25,8 +25,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/b/f/csm_witt_gas_analyser_oxybaby_6_on_table_stand_a2f7a44db7.png",
-        "https://www.wittgas.com/fileadmin/_processed_/0/6/csm_witt_gas_analyser_oxybaby_6_table_top_4b47c645d8.png"
+        "csm_witt_gas_analyser_oxybaby_6_on_table_stand_d074b8f3a6.png.webp",
+        "csm_witt_gas_analyser_oxybaby_6_table_top_0d0f06f074.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_zubehoer_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -39,7 +39,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/7/e/csm_gasanalysator_oxybaby_zubehoer_d_948ea609a6.png",
+            image: "csm_gasanalysator_oxybaby_zubehoer_d_dd8d8ac072.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_zubehoer_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

@@ -4,7 +4,7 @@ const meta = {
     title: "Auswertesystem AWS-Analog",
     description: "Analoges Auswertesystem zur Ansteuerung der WITT MFC-Mischgeräte",
     keywords: "Analoges Auswertesystem, MFC Mischgeräte",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/9/a/csm_aws_analog_c751abc792.png",
+    og_image: "https://www.mmw.industries/images/products/csm_aws_analog_8e22f605ed.png",
     og_url: "https://mmw.industries/products/aws-analog",
 };
 
@@ -26,7 +26,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/9/a/csm_aws_analog_c751abc792.png"
+        "csm_aws_analog_8e22f605ed.png"
     ],
     datasheetLink: "",
     // iframe link from youtube (embeeded share)
@@ -53,13 +53,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/1/8/csm_auswertesystem_md7_aws_analogue_d_2ed04eb42f.png",
+            image: "csm_auswertesystem_md7_aws_analogue_d_3932646317.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/auswertesystem_md7_aws_analogue_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmischer",
             content: ""

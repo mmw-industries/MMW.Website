@@ -4,7 +4,7 @@ const meta = {
     title: "MDV für Vorgemischbrenner",
     description: "MDV Gasmischer und -dosierer für Brenngas-, Luft- oder Sauerstoff-Gemische, speziell für Brenner, die mit Vorgemischen arbeiten",
     keywords: "MDV Gasmischer, MDV Gasdosierer, Brenngas- Luft- oder Sauerstoff-Gemische",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/4/c/csm_witt_gas_mixer_mdv_for_pre-mix_burners1_4aaebf1431.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mdv_for_pre-mix_burners1_9a7b54645c.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mdv",
 };
 
@@ -26,8 +26,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/4/c/csm_witt_gas_mixer_mdv_for_pre-mix_burners1_4aaebf1431.png",
-        "https://www.wittgas.com/fileadmin/_processed_/b/1/csm_witt_gas_mixer_mdv_for_pre-mix_burners2_dd4d1f8154.png"
+        "csm_witt_gas_mixer_mdv_for_pre-mix_burners1_9a7b54645c.png.webp",
+        "csm_witt_gas_mixer_mdv_for_pre-mix_burners2_42a0402861.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_md3_mdv_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -53,7 +53,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/e/7/csm_gasmischer_md3_mdv_d_357a6aa048.png",
+            image: "csm_gasmischer_md3_mdv_d_535fa29ee7.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_md3_mdv_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

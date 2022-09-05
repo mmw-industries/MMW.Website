@@ -4,7 +4,7 @@ const meta = {
     title: "Raumluftüberwachung RLA 100",
     description: "Raumluftüberwachung zur Detektion von CO2",
     keywords: "Raumluftüberwachung, CO2",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/2/3/csm_witt_gas_analyser_rla100_97d81cf5a3.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_rla100_9e7369cab6.png.webp",
     og_url: "https://mmw.industries/products/rla-100",
 };
 
@@ -25,7 +25,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/2/3/csm_witt_gas_analyser_rla100_97d81cf5a3.png"
+        "csm_witt_gas_analyser_rla100_9e7369cab6.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gas_monitor_rla100_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -62,7 +62,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/3/7/csm_gas_monitor_rla100_d_4f14728fea.png",
+            image: "csm_gas_monitor_rla100_d_4e86c8e787.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gas_monitor_rla100_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

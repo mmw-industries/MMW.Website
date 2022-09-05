@@ -30,7 +30,7 @@ function Impressum() {
                         </p>
                         <h2>MMW Analytics Solutions GmbH</h2>
                         <p>
-                            Aredstraße 11/8<br/>
+                            Aumühlweg 21/3/323<br/>
                             2544 Leobersdorf<br/>
                             Österreich<br/>
                         </p>

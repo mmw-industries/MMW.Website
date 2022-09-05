@@ -4,7 +4,7 @@ const meta = {
     title: "ASTM Set für LEAK-MASTER® EASY",
     description: "für Blasentest nach ASTM F2096",
     keywords: "Blasentest, ASTM F2096",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/1/d/csm_witt_astm_set_for_EASY_84d9bc49b6.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_astm_set_for_EASY_2d0c3027e0.png.webp",
     og_url: "https://mmw.industries/products/leak-master-easy-astm-set",
 };
 
@@ -25,8 +25,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/1/d/csm_witt_astm_set_for_EASY_84d9bc49b6.png",
-        "https://www.wittgas.com/fileadmin/_processed_/f/b/csm_witt_leak_detector_leak_master_easy_with_astm_set_ba356baac6.png"
+        "csm_witt_astm_set_for_EASY_2d0c3027e0.png.webp",
+        "csm_witt_leak_detector_leak_master_easy_with_astm_set_9dab102dbb.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_kpl_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -37,7 +37,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/a/csm_dichtheitspruefung_leak_master_easy_kpl_d_4754256506.png",
+            image: "csm_dichtheitspruefung_leak_master_easy_kpl_d_3208476e42.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_kpl_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

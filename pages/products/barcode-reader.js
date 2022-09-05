@@ -4,7 +4,7 @@ const meta = {
     title: "Barcode-Reader",
     description: "Zur Auswahl von Produktnamen und Benutzern via Barcode für MAPY, LEAK-MASTER® EASY PLUS, PRO und MAPMAX",
     keywords: "Barcode-Reader, MAPY, LEAK-MASTER®, LEAK-MASTER® EASY PLUS, LEAK-MASTER® PRO , LEAK-MASTER® MAPMAX",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/7/f/csm_barcode_reader_IP65_d8061035a0.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_barcode_reader_IP65_a517c9b1b6.jpg.webp",
     og_url: "https://mmw.industries/products/barcode-reader",
 };
 
@@ -24,7 +24,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/7/f/csm_barcode_reader_IP65_d8061035a0.jpg"
+        "csm_barcode_reader_IP65_a517c9b1b6.jpg.webp"
     ],
     datasheetLink: "",
     // iframe link from youtube (embeeded share)

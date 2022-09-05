@@ -4,7 +4,7 @@ const meta = {
     title: "Gasanalysator PA 7.0",
     description: "Kompakter Gasanalysator für O2, CO2 oder O2/CO2, verschiedene Anwendungen",
     keywords: "Gasanalysator, O2, CO2, O2/CO2,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/c/a/csm_witt_gas_analyser_pa7_4450f447d6.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_pa7_c08809054b.png.webp",
     og_url: "https://mmw.industries/products/pa-7",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/c/a/csm_witt_gas_analyser_pa7_4450f447d6.png"
+        "csm_witt_gas_analyser_pa7_c08809054b.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_pa_7_0_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -65,28 +65,42 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/d/csm_gasanalysator_pa_7_0_d_b59828aa7d.png",
+            image: "csm_gasanalysator_pa_7_0_d_a34d9a359f.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_pa_7_0_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/0/csm_MAP_Gasanalyse_D_6af455217b.png",
+            image: "Broschuere_Analyse.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Gasanalyse_D.pdf",
             title: "Broschüre WITT Gasanalysatoren",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/1/csm_MAP_D_f6b462f88e.png",
+            image: "Broschuere_Packaging.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_D.pdf",
             title: "Broschüre WITT Produkte für MAP",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_obst_gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_Oxybaby_Zubehoer_e167e009e5.png.webp",
+            link: "https://www.mmw.industries/products/consumables",
+            title: "Verbrauchsmaterialien",
+            content: "Ersatzplättchen, Nadeln, Akku etc. für OXYBABY®, PA, MAPY, MFA"
+        },
+        {
+            image: "csm_Mensch_vor_PC_mit_OBCC_2_EN_2a066c8ebd.jpg.webp",
+            link: "https://www.mmw.industries/products/obcc",
+            title: "Software OBCC",
+            content: "Software zur Dokumentation von Messergebnissen für OXYBABY® 6.0 und PA"
         }
     ]
 };

@@ -4,7 +4,7 @@ const meta = {
     title: "Gasanalysator OXYBABY® Med",
     description: "O2- bzw. O2/CO2-Gasanalysator zur Kontrolle medizinischer Gase",
     keywords: "Oxybaby, Oxybaby Med, Gasanalysator, O2, CO2, mobile, medizinischer Gase,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/9/6/csm_witt_gas_analyser_oxybaby_med_40bc9819fa.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_oxybaby_med_aace517191.png.webp",
     og_url: "https://mmw.industries/products/oxybaby-med",
 };
 
@@ -30,9 +30,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/9/6/csm_witt_gas_analyser_oxybaby_med_40bc9819fa.png",
-        "https://www.wittgas.com/fileadmin/_processed_/7/e/csm_carrying_case_for_witt_oxybaby_c00b3f3e3d.png",
-        "https://www.wittgas.com/fileadmin/_processed_/b/c/csm_adapter_for_witt_gas_analyser_oxybaby_med_31edc10333.png"
+        "csm_witt_gas_analyser_oxybaby_med_aace517191.png.webp",
+        "csm_adapter_for_witt_gas_analyser_oxybaby_med_6a8964fff6.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_med_kpl_d.pdf",
     youtubeVideo: "",
@@ -86,7 +85,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/b/2/csm_gasanalysator_oxybaby_med_kpl_d_c5a40cc488.png",
+            image: "csm_gasanalysator_oxybaby_med_kpl_d_a3111f16ec.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_med_kpl_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

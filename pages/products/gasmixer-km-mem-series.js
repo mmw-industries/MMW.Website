@@ -4,8 +4,8 @@ const meta = {
     title: "Gasmischer KM - MEM Serie",
     description: "Leistungsstarker Gasmischer für 2 oder 3 Gase, insbesondere für MAP- Verpackungsmaschinen und stark schwankende Mischgas-Entnahmemengen",
     keywords: "Leistungsstarker Gasmischer, MAP, Gasmischer, 2 Gase, 3 Gase",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/b/9/csm_witt_gas_mixer_km100-2mem_aaeb50cca3.png",
-    og_url: "https://mmw.industries/products/Gasmischer KM - MEM Serie",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km100-2mem_65b19cd7b6.png.webp",
+    og_url: "https://mmw.industries/products/gasmixer-km-mem-series",
 };
 
 const data = {
@@ -29,12 +29,12 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/b/9/csm_witt_gas_mixer_km100-2mem_aaeb50cca3.png",
-        "https://www.wittgas.com/fileadmin/_processed_/9/1/csm_witt_gas_mixer_km100-3mem_ef0f50b292.png"
+        "csm_witt_gas_mixer_km100-2mem_65b19cd7b6.png.webp",
+        "csm_witt_gas_mixer_km100-3mem_65a64bb4d2.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km100_200_2_3mem_d.pdf",
     // iframe link from youtube (embeeded share)
-    youtubeVideo: "",
+    youtubeVideo: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/LmD2h16mZdM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
     informationHeader: "Mischsysteme für 2 oder 3 Gase speziell für Vakuum-Verpackungsmaschinen in der Lebensmittelindustrie und für Anwendungen mit großen Schwankungen der Mischgas-Entnahmemengen.",
     informationContent: [
         {
@@ -78,22 +78,42 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/6/csm_gasmischer_km100_200_2_3mem_d_a6f7cf92be.png",
+            image: "csm_gasmischer_km100_200_2_3mem_d_650d47b1a7.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km100_200_2_3mem_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_Obst_Gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_witt_gas_pressure_receiver_steel_250l_2_bf4515c6c8.png.webp",
+            link: "https://www.mmw.industries/products/gas-tank",
+            title: "Gasbehälter",
+            content: "Druckbehälter für Mischgas aus Stahl oder Edelstahl"
+        },
+        {
+            image: "csm_witt_gas_analyser_mapy_unit_7720be133d.png.webp",
+            link: "https://www.mmw.industries/products/inline-analyser",
+            title: "Inline Gasanalysator",
+            content: "Einschubmodul zur permanenten Kontrolle des Gasgemisches für z.B. CO2, O2, H2, He"
+        },
+        {
+            image: "csm_witt_inlet_pressure_control_4021d8bc2d.png.webp",
+            link: "https://www.mmw.industries/products/gasmixer-switch-station",
+            title: "Eingangsdrucküberwachung mit Alarmmodul AM3",
+            content: "Zur permanenten Eingangsdrucküberwachung für optimale Qualität und Wirtschaftlichkeit in der Produktion"
         }
     ]
 };

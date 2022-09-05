@@ -4,7 +4,7 @@ const meta = {
     title: "OXYBABY® Control Center",
     description: "Software zur Dokumentation von Messergebnissen für OXYBABY® 6.0 und PA",
     keywords: "OXYBABY®, Software, Dokumentation",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/5/4/csm_Mensch_vor_PC_mit_OBCC_2_EN_124426dff4.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_Mensch_vor_PC_mit_OBCC_2_EN_f6343f1384.jpg.webp",
     og_url: "https://mmw.industries/products/obcc",
 };
 
@@ -26,7 +26,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/5/4/csm_Mensch_vor_PC_mit_OBCC_2_EN_124426dff4.jpg"
+        "csm_Mensch_vor_PC_mit_OBCC_2_EN_f6343f1384.jpg.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/software_obcc_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -57,13 +57,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/0/f/csm_software_obcc_d_c2bb824393.png",
+            image: "csm_software_obcc_d_87826e0d45.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/software_obcc_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/0/csm_MAP_Gasanalyse_D_6af455217b.png",
+            image: "Broschuere_Analyse.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Gasanalyse_D.pdf",
             title: "Broschüre WITT Gasanalysatoren",
             content: ""

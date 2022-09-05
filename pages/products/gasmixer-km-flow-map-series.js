@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer KM FLOW MAP Serie",
     description: "Elektronischer Gasmischer für 2 oder 3 Gase, speziell für MAP- Verpackungsmaschinen und Schlauchbeutelmaschinen",
     keywords: "Elektronischer Gasmischer, 2 Gase, 3 Gase, MAP",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/b/a/csm_witt_gas_mixer_km-flow_d76ee11faf.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km-flow_934186cace.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-km-flow-map-series",
 };
 
@@ -29,7 +29,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/b/a/csm_witt_gas_mixer_km-flow_d76ee11faf.png"
+        "csm_witt_gas_mixer_km-flow_934186cace.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km_flow_map_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -96,22 +96,36 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/1/e/csm_gasmischer_km_flow_map_d_2f898835ff.png",
+            image: "csm_gasmischer_km_flow_map_d_00e35ea294.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km_flow_map_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_Obst_Gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_witt_gas_pressure_receiver_steel_250l_2_bf4515c6c8.png.webp",
+            link: "https://www.mmw.industries/products/gas-tank",
+            title: "Gasbehälter",
+            content: "Druckbehälter für Mischgas aus Stahl oder Edelstahl"
+        },
+        {
+            image: "csm_witt_gas_analyser_mapy_unit_7720be133d.png.webp",
+            link: "https://www.mmw.industries/products/inline-analyser",
+            title: "Inline Gasanalysator",
+            content: "Einschubmodul zur permanenten Kontrolle des Gasgemisches für z.B. CO2, O2, H2, He"
         }
     ]
 };

@@ -4,7 +4,7 @@ const meta = {
     title: "MDV für außenmischende Brenner",
     description: "MDV Mengenventilsystem speziell für außenmischende Brenner",
     keywords: "MFC Mengenventilsystem, außenmischende Brenner",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/2/9/csm_witt_gas_mixer_mdv_for_surface-mix_burners_32b997a11e.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mdv_for_surface-mix_burners_73a36caa13.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mfc-outside",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/2/9/csm_witt_gas_mixer_mdv_for_surface-mix_burners_32b997a11e.png"
+        "csm_witt_gas_mixer_mdv_for_surface-mix_burners_73a36caa13.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_md4_mdv_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -54,19 +54,19 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/3/3/csm_gasmischer_md4_mdv_d_798bbd9cbe.png",
+            image: "csm_gasmischer_md4_mdv_d_ba70a33d0c.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_md4_mdv_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/d/6/csm_thermische_prozesstechnik_md1_d_a3cc0154b6.png",
+            image: "Overview_thermische_prozesstechnik.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/thermische_prozesstechnik_md1_d.pdf",
             title: "Überblick Thermische Prozesstechnik",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""

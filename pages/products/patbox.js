@@ -4,7 +4,7 @@ const meta = {
     title: "Datenlogger für Druck und Temperatur PATBOX",
     description: "Kompakter Datenlogger für Druck und Temperatur",
     keywords: "",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/2/a/csm_Data_logger_pressure_temperature_PATBOX_497b02d313.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_Data_logger_pressure_temperature_PATBOX_8b588412b9.jpg.webp",
     og_url: "https://mmw.industries/products/patbox",
 };
 
@@ -28,7 +28,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/2/a/csm_Data_logger_pressure_temperature_PATBOX_497b02d313.jpg"
+        "csm_Data_logger_pressure_temperature_PATBOX_8b588412b9.jpg.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/datenlogger_patbox_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -70,7 +70,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/7/csm_datenlogger_patbox_d_fe1d42ec38.png",
+            image: "csm_datenlogger_patbox_d_20329650b3.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/datenlogger_patbox_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

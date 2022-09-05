@@ -4,7 +4,7 @@ const meta = {
     title: "Verpackungsdichtheitsprüfer LEAK-MASTER® MAPMAX compact",
     description: "Inline-Dichtheitsprüfung für Verpackungen auf CO2-Basis, kompakte Bauart",
     keywords: "",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/a/d/csm_witt_leak_detector_mapmax_compact_bfce04c5e4.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_leak_detector_mapmax_compact_2f18e3bf59.png.webp",
     og_url: "https://mmw.industries/products/leak-master-mapmax-compact",
 };
 
@@ -28,7 +28,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/a/d/csm_witt_leak_detector_mapmax_compact_bfce04c5e4.png"
+        "csm_witt_leak_detector_mapmax_compact_2f18e3bf59.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_mapmax_compact_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -66,25 +66,25 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/6/2/csm_dichtheitspruefung_leak_master_mapmax_compact_d_6e61a25e87.png",
+            image: "csm_dichtheitspruefung_leak_master_mapmax_compact_d_40bb8dd469.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_mapmax_compact_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/6/csm_MAP_Dichtheitspruefung_33cfa6b536.png",
+            image: "Broschuere_Leaktest.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Dichtheitspruefung.pdf",
             title: "Broschüre Dichtheitsprüfung",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/1/csm_MAP_D_f6b462f88e.png",
+            image: "Broschuere_Packaging.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_D.pdf",
             title: "Broschüre WITT Lösungen für MAP Verpackungen",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_obst_gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""

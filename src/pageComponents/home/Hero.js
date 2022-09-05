@@ -32,6 +32,13 @@ function Hero() {
                                     </a>
                                 </li>
                                 <li>
+                                    <a href="/products/mapqs">
+                                        <p className="p-lg m-1">
+                                            Datenlogging
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
                                     <p className="p-lg m-1">
                                         Gasverfahrenstechnik - Prozessanalytik
                                     </p>

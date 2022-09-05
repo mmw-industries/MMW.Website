@@ -4,7 +4,7 @@ const meta = {
     title: "Steuereinheit PLUS",
     description: "Zur elektronischen Steuerung des Verpackungsdichtheitsprüfers LEAK-MASTER® EASY",
     keywords: "LEAK-MASTER® EASY, Steuerung",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/f/6/csm_witt_control_unit_plus_ec48d84832.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_control_unit_plus_a2b9f67240.png.webp",
     og_url: "https://mmw.industries/products/leak-master-control-plus",
 };
 
@@ -25,8 +25,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/f/6/csm_witt_control_unit_plus_ec48d84832.png",
-        "https://www.wittgas.com/fileadmin/_processed_/6/c/csm_witt_leak_detector_leak_master_easy_plus_60f05c8351.png"
+        "csm_witt_control_unit_plus_a2b9f67240.png.webp",
+        "csm_witt_leak_detector_leak_master_easy_plus_077d961363.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_steuerung_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -69,13 +69,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/7/1/csm_dichtheitspruefung_leak_master_easy_steuerung_d_4c9a45304d.png",
+            image: "csm_dichtheitspruefung_leak_master_easy_steuerung_d_8cae1df212.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_steuerung_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/6/csm_MAP_Dichtheitspruefung_33cfa6b536.png",
+            image: "Broschuere_Leaktest.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Dichtheitspruefung.pdf",
             title: "Broschüre Dichtheitsprüfung",
             content: ""

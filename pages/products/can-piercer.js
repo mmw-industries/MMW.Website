@@ -4,7 +4,7 @@ const meta = {
     title: "Can-Piercer",
     description: "OXYBABY®-Zubehör zur Kopfraumanalyse von Flaschen und Dosen",
     keywords: "OXYBABY®, Kopfraumanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/1/1/csm_canpiercer_for_witt_gas_analyser_oxybaby_456158b162.png",
+    og_image: "https://www.mmw.industries/images/products/csm_canpiercer_for_witt_gas_analyser_oxybaby_335c1bd90d.png.webp",
     og_url: "https://mmw.industries/products/can-piercer",
 };
 
@@ -24,7 +24,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/1/1/csm_canpiercer_for_witt_gas_analyser_oxybaby_456158b162.png"
+        "csm_canpiercer_for_witt_gas_analyser_oxybaby_335c1bd90d.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_canpiercer_aquacheck_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -43,7 +43,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/1/1/csm_canpiercer_for_witt_gas_analyser_oxybaby_456158b162.png",
+            image: "csm_gasanalysator_oxybaby_canpiercer_aquacheck_d_53981c2b84.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_canpiercer_aquacheck_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

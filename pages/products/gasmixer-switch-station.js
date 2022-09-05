@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer Umschaltstation",
     description: "Schalt- und Überwachungseinheit für die automatische Umschaltung von Gasmischern zur kontinuierlichen Gasentnahme",
     keywords: "Gasmischer, Umschaltstation, Umschaltung",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/6/f/csm_witt_gas_mixer_switch_unit_f808b120c7.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_switch_unit_c34d12652e.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-switch-station",
 };
 
@@ -25,7 +25,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/6/f/csm_witt_gas_mixer_switch_unit_f808b120c7.png"
+        "csm_witt_gas_mixer_switch_unit_c34d12652e.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/umschaltstation_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -126,13 +126,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/7/5/csm_umschaltstation_d_1bc3802c9f.png",
+            image: "csm_umschaltstation_d_2293a442f8.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/umschaltstation_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""

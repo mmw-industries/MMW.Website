@@ -4,7 +4,7 @@ const meta = {
     title: "Vakuum-Set für LEAK-MASTER® EASY",
     description: "Dichtheitsprüfung für Verpackungen auf Wasserbasis",
     keywords: "",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/0/7/csm_Wuerstchen_597eaafec6.png",
+    og_image: "https://www.mmw.industries/images/products/csm_Wuerstchen_a5fd9082a2.png.webp",
     og_url: "https://mmw.industries/products/leak-master-easy-vakuum-set",
 };
 
@@ -24,7 +24,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/0/7/csm_Wuerstchen_597eaafec6.png"
+        "csm_Wuerstchen_a5fd9082a2.png.webp"
     ],
     datasheetLink: "",
     // iframe link from youtube (embeeded share)
@@ -35,13 +35,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/a/csm_dichtheitspruefung_leak_master_easy_kpl_d_4754256506.png",
+            image: "csm_dichtheitspruefung_leak_master_easy_kpl_d_3208476e42.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_kpl_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/6/csm_MAP_Dichtheitspruefung_33cfa6b536.png",
+            image: "Broschuere_Leaktest.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Dichtheitspruefung.pdf",
             title: "Broschüre Dichtheitsprüfung",
             content: ""

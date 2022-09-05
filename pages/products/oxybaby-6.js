@@ -4,7 +4,7 @@ const meta = {
     title: "Gasanalysator OXYBABY® 6.0",
     description: "O2- bzw. O2/CO2-Gasanalysator für MAP-Verpackungen, Premiumversion",
     keywords: "Oxybaby, Oxybaby 6.0, Gasanalysator, O2, CO2, mobile,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/0/a/csm_witt_gas_analyser_oxybaby_6_f07441a31f.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_oxybaby_6_6d75e52ee9.png.webp",
     og_url: "https://mmw.industries/products/oxybaby-6",
 };
 
@@ -31,10 +31,9 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/0/a/csm_witt_gas_analyser_oxybaby_6_f07441a31f.png",
-        "https://www.wittgas.com/fileadmin/_processed_/0/6/csm_witt_gas_analyser_oxybaby_6_table_top_4b47c645d8.png",
-        "https://www.wittgas.com/fileadmin/_processed_/5/4/csm_Mensch_vor_PC_mit_OBCC_2_EN_124426dff4.jpg",
-        "https://www.wittgas.com/fileadmin/_processed_/7/e/csm_carrying_case_for_witt_oxybaby_c00b3f3e3d.png",
+        "csm_witt_gas_analyser_oxybaby_6_6d75e52ee9.png.webp",
+        "csm_witt_gas_analyser_oxybaby_6_table_top_0d0f06f074.png.webp",
+        "csm_Mensch_vor_PC_mit_OBCC_2_EN_f6343f1384.jpg.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby6_0_kpl_d.pdf",
     youtubeVideo: "<iframe width=\"852\" height=\"479\" src=\"https://www.youtube.com/embed/75dlhC9xmXI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
@@ -96,28 +95,60 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/0/1/csm_gasanalysator_oxybaby6_0_kpl_d_203224f23f.png",
+            image: "csm_gasanalysator_oxybaby6_0_kpl_d_be77ea8749.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby6_0_kpl_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/0/csm_MAP_Gasanalyse_D_6af455217b.png",
+            image: "Broschuere_Analyse.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Gasanalyse_D.pdf",
             title: "Broschüre WITT Gasanalysatoren",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/1/csm_MAP_D_f6b462f88e.png",
+            image: "Broschuere_Packaging.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_D.pdf",
             title: "Broschüre WITT Produkte für MAP",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_obst_gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_Mensch_vor_PC_mit_OBCC_2_EN_2a066c8ebd.jpg.webp",
+            link: "https://www.mmw.industries/products/obcc",
+            title: "Software OBCC",
+            content: "Software zur Dokumentation von Messergebnissen für OXYBABY® 6.0 und PA"
+        },
+        {
+            image: "csm_canpiercer_for_witt_gas_analyser_oxybaby_8bd8b8097e.png.webp",
+            link: "https://www.mmw.industries/products/can-piercer",
+            title: "Can-Piercer",
+            content: "OXYBABY®-Zubehör zur Kopfraumanalyse von Flaschen und Dosen"
+        },
+        {
+            image: "csm_Oxybaby_Zubehoer_e167e009e5.png.webp",
+            link: "https://www.mmw.industries/products/consumables",
+            title: "Verbrauchsmaterialien",
+            content: "Ersatzplättchen, Nadeln, Akku etc. für OXYBABY®, PA, MAPY, MFA"
+        },
+        {
+            image: "csm_witt_gas_analyser_oxybaby_6_on_table_stand_7f0cb0e468.png.webp",
+            link: "https://www.mmw.industries/products/table-stand",
+            title: "Tischständer",
+            content: "Edelstahl-Tischständer für OXYBABY®"
+        },
+        {
+            image: "csm_Aquacheck_ohne_Behaelter1_59297bd8c1.png.webp",
+            link: "https://www.mmw.industries/products/aquacheck",
+            title: "Aquacheck",
+            content: "OXYBABY®-Zubehör zur Analyse von Kleinstverpackungen"
         }
     ]
 };

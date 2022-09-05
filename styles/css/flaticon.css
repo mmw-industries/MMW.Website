@@ -1,6 +1,6 @@
 @font-face {
   font-family: "flaticon";
-  src: url("../../public/fonts/flaticon.ttf");
+  src: url("../../fonts/flaticon.ttf");
 }
 
 span[class^="flaticon-"]:before,

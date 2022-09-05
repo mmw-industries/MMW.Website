@@ -4,7 +4,7 @@ const meta = {
     title: "Auqacheck",
     description: "OXYBABY®-Zubehör zur Analyse von Kleinstverpackungen",
     keywords: "OXYBABY®, Analyse, Kleinstverpackungen, O2, CO2",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/c/b/csm_Aquacheck_ohne_Behaelter1_72134bcac3.png",
+    og_image: "https://www.mmw.industries/images/products/csm_Aquacheck_ohne_Behaelter1_d996061906.png",
     og_url: "https://mmw.industries/products/aquacheck",
 };
 
@@ -23,9 +23,9 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/c/b/csm_Aquacheck_ohne_Behaelter1_72134bcac3.png",
-        "https://www.wittgas.com/fileadmin/_processed_/8/c/csm_12_Gas_analyser_Oxybaby_6bed4ff8dd.jpg",
-        "https://www.wittgas.com/fileadmin/_processed_/6/0/csm_Analyser_Aquacheck_cab70b98fc.png"
+        "csm_Aquacheck_ohne_Behaelter1_d996061906.png.webp",
+        "csm_12_Gas_analyser_Oxybaby_e54e28a9ad.jpg.webp",
+        "csm_Analyser_Aquacheck_7f061a7c97.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_canpiercer_aquacheck_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -39,7 +39,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/e/8/csm_gasanalysator_oxybaby_canpiercer_aquacheck_d_a6224572e9.png",
+            image: "csm_gasanalysator_oxybaby_canpiercer_aquacheck_d_53981c2b84.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_canpiercer_aquacheck_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

@@ -4,7 +4,7 @@ const meta = {
     title: "Feuchtemessgerät HYDROBABY",
     description: "Mobiler Analysator zur Messung von Feuchte in Gasen",
     keywords: "mobile, Analysator, Feuchte, Gase",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/4/a/csm_witt_moisture_analyser_hydrobaby_5aee5a917d.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_moisture_analyser_hydrobaby_51850d4188.png.webp",
     og_url: "https://mmw.industries/products/hydrobaby",
 };
 
@@ -26,7 +26,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/4/a/csm_witt_moisture_analyser_hydrobaby_5aee5a917d.png"
+        "csm_witt_moisture_analyser_hydrobaby_51850d4188.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/feuchtemessgeraet_hydrobaby_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -76,7 +76,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/2/csm_feuchtemessgeraet_hydrobaby_d_b57a4f5bdc.png",
+            image: "csm_feuchtemessgeraet_hydrobaby_d_7a9d605c5a.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/feuchtemessgeraet_hydrobaby_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

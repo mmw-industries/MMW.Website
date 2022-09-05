@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer in der Lasertechnologie",
     description: "Individuelle Lösungen für höchste Gasreinheit und Wirtschaftlichkeit",
     keywords: "Gasmischer, Lasertechnologie",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/e/6/csm_witt_gas_mixer_km40_c956b47020.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km40_2d4a1d67cd.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-lasertechnologie",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/e/6/csm_witt_gas_mixer_km40_c956b47020.png"
+        "csm_witt_gas_mixer_km40_2d4a1d67cd.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
     // iframe link from youtube (embeeded share)
@@ -39,15 +39,15 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmischer",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/a/9/csm_Amada_Laserschneiden_Gasmischer_DE_3d21e2fa47.png",
+            image: "csm_Amada_Laserschneiden_Gasmischer_DE_f671297ee8.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Amada_Laserschneiden_Gasmischer_DE.pdf",
-            title: "Broschüre Gasmischer",
+            title: "Praxisbeispiel: Gasmischer für Laserschneiden",
             content: ""
         }
     ]

@@ -4,7 +4,7 @@ const meta = {
     title: "Gasanalysator MFA 9000",
     description: "Kompakter Multigas-Analysator für 15 binäre Gasgemische",
     keywords: "MFA 9000, Gasanalysator, mobile, Service-Einsätze",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/1/8/csm_witt_gas_analyser_mfa9000_001f0b11bf.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_mfa9000_3d5a913bbe.png.webp",
     og_url: "https://mmw.industries/products/mfa9000",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/1/8/csm_witt_gas_analyser_mfa9000_001f0b11bf.png"
+        "csm_witt_gas_analyser_mfa9000_3d5a913bbe.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_mfa_9000_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -55,13 +55,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/6/csm_gasanalysator_mfa_9000_d_567665eae2.png",
+            image: "csm_gasanalysator_mfa_9000_d_c3673393e3.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_mfa_9000_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/0/csm_MAP_Gasanalyse_D_6af455217b.png",
+            image: "Broschuere_Analyse.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Gasanalyse_D.pdf",
             title: "Broschüre WITT Gasanalysatoren",
             content: ""

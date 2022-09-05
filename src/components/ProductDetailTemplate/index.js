@@ -3,6 +3,7 @@ import ProductDownloads from "./components/ProductDownloads";
 import ProductInformations from "./components/ProductInformations";
 import ProductVideo from "./components/ProductVideo";
 import ProductOverview from "./components/ProductOverview";
+import ProductAccessories from "./components/ProductAccessories";
 
 function ProductDetailTemplate({meta, data}) {
 
@@ -21,6 +22,10 @@ function ProductDetailTemplate({meta, data}) {
                     data={data}
                 />
                 <ProductDownloads
+                    data={data}
+                />
+
+                <ProductAccessories
                     data={data}
                 />
                 <hr className="divider"/>

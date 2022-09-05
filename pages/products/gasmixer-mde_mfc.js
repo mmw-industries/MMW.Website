@@ -5,7 +5,7 @@ const meta = {
     description: "Mischsystem zur Versorgung eines Brenners oder anderen Verbrauchers mit Gasgemischen aus 2 oder mehr Gasen\n" +
         "\n",
     keywords: "Mischsystem, Brennerversorgung",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/0/4/csm_witt_gas_mixer_mfc1_e00d8a3f11.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mfc1_4c93e81974.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mde_mfc",
 };
 
@@ -29,8 +29,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/0/4/csm_witt_gas_mixer_mfc1_e00d8a3f11.png",
-        "https://www.wittgas.com/fileadmin/_processed_/4/d/csm_witt_gas_mixer_mfc2_35d52bc754.png"
+        "csm_witt_gas_mixer_mfc1_4c93e81974.png.webp",
+        "csm_witt_gas_mixer_mfc2_409b5afba0.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_md5_mde_mfc_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -63,23 +63,31 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/0/1/csm_gasmischer_md5_mde_mfc_d_ff455a7d29.png",
+            image: "csm_gasmischer_md5_mde_mfc_d_849f948dd7.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_md5_mde_mfc_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/d/6/csm_thermische_prozesstechnik_md1_d_a3cc0154b6.png",
+            image: "Overview_thermische_prozesstechnik.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/thermische_prozesstechnik_md1_d.pdf",
             title: "Überblick Thermische Prozesstechnik",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""
         },
+    ],
+    accessories: [
+        {
+            image: "csm_aws_analog_f3a0124548.png",
+            link: "https://www.mmw.industries/products/aws-analog",
+            title: "Auswärtesystem AWS-Analog",
+            content: "Analoges Auswertesystem zur Ansteuerung der WITT MFC-Mischgeräte"
+        }
     ]
 };
 

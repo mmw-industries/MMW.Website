@@ -359,6 +359,41 @@ export const MenuProductsList = [
         ]
     },
     {
+        header: "Datenlogger",
+        items: [
+            {
+                header: "Mobile",
+                items: [
+                    {
+                        title: 'MapQS',
+                        link: '/products/mapqs'
+                    },
+                    {
+                        title: 'PATBOX',
+                        link: '/products/patbox'
+                    }
+                ]
+            },
+            {
+                header: "Stationär",
+                items: [
+                    {
+                        title: 'DRC-2',
+                        link: '/products/drc-2'
+                    },
+                    {
+                        title: 'MapQS',
+                        link: '/products/mapqs'
+                    },
+                    {
+                        title: 'PATBOX',
+                        link: '/products/patbox'
+                    }
+                ]
+            }
+        ]
+    },
+    {
         header: "Raumluftüberwachung",
         items: [
             {
@@ -402,7 +437,7 @@ export const MenuProductsList = [
                 items: [
                     {
                         title: "MFA H20",
-                        link: '/products/mfa-h20'
+                        link: '/products/mfa-h2o'
                     }
                 ]
             }

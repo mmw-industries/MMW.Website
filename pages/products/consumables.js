@@ -4,7 +4,7 @@ const meta = {
     title: "Verbrauchsmaterialien",
     description: "Ersatzplättchen, Nadeln, Sensoren, Akku etc. für OXYBABY®, PA, MAPY, MFA",
     keywords: "",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/8/5/csm_Oxybaby_Zubehoer_f11e591810.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_Oxybaby_Zubehoer_7238a717df.png.webp",
     og_url: "https://mmw.industries/products/consumables",
 };
 
@@ -24,9 +24,9 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/8/5/csm_Oxybaby_Zubehoer_f11e591810.jpg",
-        "https://www.wittgas.com/fileadmin/_processed_/e/0/csm_tube_for_witt_gas_analyser_oxybaby_e64c0d6496.png",
-        "https://www.wittgas.com/fileadmin/_processed_/f/d/csm_pads_for_witt_gas_analyser_oxybaby_1b2022b5f9.png"
+        "csm_Oxybaby_Zubehoer_7238a717df.png.webp",
+        "csm_tube_for_witt_gas_analyser_oxybaby_f7ee223dab.png.webp",
+        "csm_pads_for_witt_gas_analyser_oxybaby_7f7d2da65d.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_verbrauchsmaterial_oxybaby_mfa_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -48,7 +48,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/f/8/csm_gasanalysator_verbrauchsmaterial_oxybaby_mfa_d_27eaf94ddb.png",
+            image: "csm_gasanalysator_verbrauchsmaterial_oxybaby_mfa_d_0e2e8282de.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_verbrauchsmaterial_oxybaby_mfa_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

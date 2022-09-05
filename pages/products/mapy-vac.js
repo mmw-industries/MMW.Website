@@ -4,7 +4,7 @@ const meta = {
     title: "Inline Gasanalysator MAPY VAC",
     description: "ür Tiefzieh- und Schalen-Verpackungsmaschinen, O2 oder O2/CO2",
     keywords: "Gasanalysator, O2, CO2, O2/CO2, Tiefzieh- und Schalen-Verpackungsmaschinen, Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/4/d/csm_witt_gas_analyser_mapy_vac_6df98e19f4.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_mapy_vac_07b735b95c.jpg.webp",
     og_url: "https://mmw.industries/products/mapy-vac",
 };
 
@@ -28,8 +28,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/4/d/csm_witt_gas_analyser_mapy_vac_6df98e19f4.jpg",
-        "https://www.wittgas.com/fileadmin/_processed_/1/3/csm_witt_gas_analyser_mapy_vac_BB_00dd4e2ebf.jpg"
+        "csm_witt_gas_analyser_mapy_vac_07b735b95c.jpg.webp",
+        "csm_witt_gas_analyser_mapy_vac_BB_856f6a72d6.jpg.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_mapy_vac_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -78,25 +78,25 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/7/8/csm_gasanalysator_mapy_vac_d_005539a41d.png",
+            image: "csm_gasanalysator_mapy_vac_d_05cd1b5adf.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_mapy_vac_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/0/csm_MAP_Gasanalyse_D_6af455217b.png",
+            image: "Broschuere_Analyse.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Gasanalyse_D.pdf",
             title: "Broschüre WITT Gasanalysatoren",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/1/csm_MAP_D_f6b462f88e.png",
+            image: "Broschuere_Packaging.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_D.pdf",
-            title: "Broschüre WITT Produkte für MAP",
+            title: "Broschüre WITT Lösungen für MAP Verpackungen",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_obst_gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""

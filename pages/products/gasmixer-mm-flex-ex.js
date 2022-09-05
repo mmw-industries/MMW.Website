@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer MM-FLEX Ex",
     description: "Mischsysteme für 2 definierte Gase und eine Vielzahl von technischen Anwendungen zum Beispiel in der Schweißtechnik.",
     keywords: "kompakter Gasmischer, 2 Gase, Ex Version",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/8/b/csm_witt_gas_mixer_mm-flex_1_original3_f8e190d6b0.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mm-flex_1_original3_afaba199b0.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mm-flex-ex",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/8/b/csm_witt_gas_mixer_mm-flex_1_original3_f8e190d6b0.png"
+        "csm_witt_gas_mixer_mm-flex_1_original3_afaba199b0.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mm_flex_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -80,13 +80,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/b/csm_witt_gas_mixer_mm-flex_1_original3_f8e190d6b0.png",
+            image: "csm_gasmischer_mm_flex_d_25fd942bbc.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mm_flex_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""

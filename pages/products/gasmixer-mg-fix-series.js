@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer MG Fix Serie",
     description: "Gasmischer für 2 oder 3  fix einstellbare Gase und eine Vielzahl von technischen Anwendungen",
     keywords: "Gasmischer für fix einstellbare Gase, 2 Gase, 3 Gase",
-    og_image: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg_fix_flex_d.pdf",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mg-fix_7bee310982.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mg-fix-series",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/3/c/csm_witt_gas_mixer_mg-fix_917fd35e72.png"
+        "csm_witt_gas_mixer_mg-fix_7bee310982.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg_fix_flex_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -80,7 +80,7 @@ const data = {
             type: 'list',
             header: "Optionen:",
             items: [
-                "Alarmmodul NXT+: integrierte Eingangsdrucküberwachung mit digitalem Display für Druckanzeige (bei analogen Drucktransmittern) und optischen Alarm, einstellbare Alarmgrenzen, Quittierungspflicht, Sicherung der Alarme mit Zeitangabe, Schnittstellen z.B. zur Steuerung externer Alarme etc.- Spannungsversorgung betreiberseitig erforderlic"
+                "Alarmmodul AM3: integrierte Eingangsdrucküberwachung mit digitalem Display für Druckanzeige (bei analogen Drucktransmittern) und optischen Alarm, einstellbare Alarmgrenzen, Quittierungspflicht, Sicherung der Alarme mit Zeitangabe, Schnittstellen z.B. zur Steuerung externer Alarme etc.- Spannungsversorgung betreiberseitig erforderlich"
             ]
         },
         "",
@@ -90,13 +90,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/2/csm_gasmischer_mg_fix_flex_d_e9f2eeb5ae.png",
+            image: "csm_gasmischer_mg_fix_flex_d_d1a5387d70.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg_fix_flex_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmischer",
             content: ""

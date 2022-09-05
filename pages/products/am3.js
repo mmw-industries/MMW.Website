@@ -4,7 +4,7 @@ const meta = {
     title: "Eingangsdrucküberwachung mit Alarmmodul AM3",
     description: "Zur permanenten Eingangsdrucküberwachung für optimale Qualität und Wirtschaftlichkeit in der Produktion",
     keywords: "Eingangsdrucküberwachung",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/4/b/csm_witt_inlet_pressure_control_250da977e3.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_inlet_pressure_control_68c5597b8a.png.webp",
     og_url: "https://mmw.industries/products/am3",
 };
 
@@ -27,7 +27,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/4/b/csm_witt_inlet_pressure_control_250da977e3.png"
+        "csm_witt_inlet_pressure_control_68c5597b8a.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/eingangsdruckueberwachung_am3_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -69,13 +69,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/0/0/csm_eingangsdruckueberwachung_am3_d_81a2c42368.png",
+            image: "csm_witt_inlet_pressure_control_68c5597b8a.png.webp",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/eingangsdruckueberwachung_am3_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmischer",
             content: ""

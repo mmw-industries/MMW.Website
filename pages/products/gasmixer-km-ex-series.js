@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer KM Ex Serie",
     description: "Gasmischer für 2 oder 3 brennbare Gase und eine Vielzahl technischer Anwendungen",
     keywords: "Gasmischer brennbare Gase, 2 Gase, 3 Gase",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/5/a/csm_witt_gas_mixer_km20_2_7b1f9ba97c.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km20_2_0546f3c76d.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-km-ex-series",
 };
 
@@ -27,8 +27,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/5/a/csm_witt_gas_mixer_km20_2_7b1f9ba97c.png",
-        "https://www.wittgas.com/fileadmin/_processed_/5/f/csm_witt_gas_mixer_km20-100_3_03e667971d.png"
+        "csm_witt_gas_mixer_km20_2_0546f3c76d.png.webp",
+        "csm_witt_gas_mixer_km20-100_3_85c437a442.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km20_100_2_3_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -60,16 +60,24 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/3/csm_gasmischer_km20_100_2_3_d_e8d1ef8a33.png",
+            image: "csm_gasmischer_km20_100_2_3_d_5afc90ca6b.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km20_100_2_3_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmischer",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_witt_gas_pressure_receiver_steel_250l_2_bf4515c6c8.png.webp",
+            link: "https://www.mmw.industries/products/gas-tank",
+            title: "Gasbehälter",
+            content: "Druckbehälter für Mischgas aus Stahl oder Edelstahl"
         }
     ]
 };

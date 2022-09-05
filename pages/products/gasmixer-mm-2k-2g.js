@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer MM-2K/-2G",
     description: "Sehr kompakter Gasmischer für 2 Gase für eine Vielzahl technischer Anwendungen",
     keywords: "kompakter Gasmischer 2 Gase",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/1/b/csm_witt_gas_mixer_mm_2g_a93ca26ffd.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mm_2g_bc4b867847.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mm-2k-2g",
 };
 
@@ -28,7 +28,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/1/b/csm_witt_gas_mixer_mm_2g_a93ca26ffd.png"
+        "csm_witt_gas_mixer_mm_2g_bc4b867847.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mm2k_2g_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -68,13 +68,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/b/csm_gasmischer_mm2k_2g_d_97b3a0f38d.png",
+            image: "csm_gasmischer_mm2k_2g_d_00aa1adf5b.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mm2k_2g_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""

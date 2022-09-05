@@ -4,7 +4,7 @@ const meta = {
     title: "Tischdrucker",
     description: "Bluetooth-Tischdrucker für OXYBABY® 6.0",
     keywords: "Bluetooth-Tischdrucker, OXYBABY®",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/4/6/csm_drucker_frei_c34dda61b4.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_drucker_frei_e012f66909.jpg.webp",
     og_url: "https://mmw.industries/products/table-printer",
 };
 
@@ -23,7 +23,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/4/6/csm_drucker_frei_c34dda61b4.jpg"
+        "csm_drucker_frei_e012f66909.jpg.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybaby_zubehoer_d.pdf",
     // iframe link from youtube (embeeded share)

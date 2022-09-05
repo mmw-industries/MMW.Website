@@ -4,7 +4,7 @@ const meta = {
     title: "LEAK-MASTER® EASY PLUS",
     description: "Dichtheitsprüfung für Verpackungen auf Wasserbasis – mit elektronischer Steuerung",
     keywords: "",
-    og_image: "",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_leak_detector_leak_master_easy_plus_077d961363.png.webp",
     og_url: "https://mmw.industries/products/leak-master-easy-plus",
 };
 
@@ -26,12 +26,12 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/6/c/csm_witt_leak_detector_leak_master_easy_plus_60f05c8351.png",
-        "https://www.wittgas.com/fileadmin/_processed_/8/4/csm_LM_EASY_mit_PLUS_DE_9fbb46aec4.png",
-        "https://www.wittgas.com/fileadmin/user_upload/Dateien/pictures/leak_detection_systems/witt_leak_detector_leak_master_easy_all_sizes.png",
-        "https://www.wittgas.com/fileadmin/_processed_/1/9/csm_witt_leak_detector_leak_master_easy_all_products_847991135f.png",
-        "https://www.wittgas.com/fileadmin/_processed_/6/0/csm_witt_leak_detector_leak_master_easy_bread_10b51c31ef.png",
-        "https://www.wittgas.com/fileadmin/_processed_/4/9/csm_witt_leak_detector_leak_master_easy_vacuum_set_8ed45052da.png"
+        "csm_witt_leak_detector_leak_master_easy_plus_077d961363.png.webp",
+        "csm_witt_leak_detector_leak-master-easy_all_sizes_plus_b92a7043bd.png.webp",
+        "csm_LM_EASY_mit_PLUS_DE_f511a8716e.png.webp",
+        "csm_witt_leak_detector_leak_master_easy_bread_0f4e707e9e.png.webp",
+        "csm_witt_leak_detector_leak_master_easy_vacuum_set_d18d82e287.png.webp",
+        "csm_witt_leak_detector_leak_master_easy_all_products_d632ca302d.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_kpl_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -92,36 +92,51 @@ const data = {
             ]
         },
     ],
+
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/a/csm_dichtheitspruefung_leak_master_easy_kpl_d_4754256506.png",
+            image: "csm_dichtheitspruefung_leak_master_easy_kpl_d_3208476e42.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/dichtheitspruefung_leak_master_easy_kpl_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/2/6/csm_MAP_Dichtheitspruefung_33cfa6b536.png",
+            image: "Broschuere_Leaktest.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Dichtheitspruefung.pdf",
             title: "Broschüre Dichtheitsprüfung",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/4/1/csm_MAP_D_f6b462f88e.png",
+            image: "Broschuere_Packaging.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_D.pdf",
             title: "Broschüre WITT Lösungen für MAP Verpackungen",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/6/a/csm_Flyer_Praxisbeispiele_EASY_DE_d8513b3cba.png",
+            image: "Broschuere_Leaktest_Examples.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Flyer_Praxisbeispiele_EASY_DE.pdf",
             title: "Broschüre Beispiele aus der Praxis",
             content: ""
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_MAP_Obst_Gemuese_D_def4e74d64.png",
+            image: "Broschuere_obst_gemuese.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/MAP_Obst_Gemuese_D.pdf",
             title: "Broschüre MAP Obst & Gemüse",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_barcode_reader_IP65_653ecb4264.jpg.webp",
+            link: "https://www.mmw.industries/products/barcode-reader",
+            title: "Barcode-Reader",
+            content: "Zur Auswahl von Produktnamen und Benutzern via Barcode für MAPY, LEAK-MASTER® EASY PLUS, PRO und MAPMAX"
+        },
+        {
+            image: "csm_calibrated_manometer_AD100_8230a05e29.jpg.webp",
+            link: "https://www.mmw.industries/products/manometer-ad100",
+            title: "Manometer AD100",
+            content: "Kalibriertes Manometer für LEAK-MASTER® EASY"
         }
     ]
 };

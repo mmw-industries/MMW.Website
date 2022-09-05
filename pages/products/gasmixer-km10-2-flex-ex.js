@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer KM10-2 FLEX Ex",
     description: "Kompakter Gasmischer für 2 brennbare Gase speziell für geringen Gasverbrauch, z.B. für Laboranwendungen",
     keywords: "",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/1/b/csm_witt_gas_mixer_km10-2_flex_d6dcf2443f.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km10-2_flex_5395ed5125.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-km10-2-flex-ex",
 };
 
@@ -26,7 +26,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/1/b/csm_witt_gas_mixer_km10-2_flex_d6dcf2443f.png"
+        "csm_witt_gas_mixer_km10-2_flex_5395ed5125.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km10_flex_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -72,13 +72,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/7/csm_gasmischer_km10_flex_d_358b2ac114.png",
+            image: "csm_gasmischer_km10_flex_d_4f5abb9638.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km10_flex_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""

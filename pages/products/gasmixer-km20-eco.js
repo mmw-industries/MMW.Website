@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer KM20-ECO",
     description: "Kompakter Gasmischer, speziell für Schankanlagen mit SK-Zulassung",
     keywords: "Gasmischer Schankanlagen, CO2, N2",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/a/d/csm_witt_gas_mixer_km20-eco_cb8743e560.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_km20-eco_94b46d4ec3.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-km20-eco",
 };
 
@@ -28,7 +28,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/a/d/csm_witt_gas_mixer_km20-eco_cb8743e560.png"
+        "csm_witt_gas_mixer_km20-eco_94b46d4ec3.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km20_2eco_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -53,13 +53,13 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/3/a/csm_gasmischer_km20_2eco_d_26ab1e14f9.png",
+            image: "csm_gasmischer_km20_2eco_d_10e7eb1b0b.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_km20_2eco_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmsicher",
             content: ""

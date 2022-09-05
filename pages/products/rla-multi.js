@@ -4,7 +4,7 @@ const meta = {
     title: "Raumluftüberwachung RLA multichannel",
     description: "Raumluftüberwachung zur Detektion von brennbaren und toxischen Gasen oder O2, für bis zu 16 Transmitter",
     keywords: "Raumluftüberwachung, toxische Gase, O2, 16 Transmitter",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/8/5/csm_witt_ambient_air_monitor_rla_multichannel_d11f5f8956.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_ambient_air_monitor_rla_multichannel_4a5f40bcd2.png.webp",
     og_url: "https://mmw.industries/products/rla-multi",
 };
 
@@ -25,7 +25,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/8/5/csm_witt_ambient_air_monitor_rla_multichannel_d11f5f8956.png"
+        "csm_witt_ambient_air_monitor_rla_multichannel_4a5f40bcd2.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gas_monitor_rla_compact_multi_d.pdf",
     // iframe link from youtube (embeeded share)
@@ -68,7 +68,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/d/5/csm_gas_monitor_rla_compact_multi_d_f0b85733f1.png",
+            image: "csm_witt_ambient_air_monitor_rla_multichannel_4a5f40bcd2.png.webp",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gas_monitor_rla_compact_multi_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

@@ -4,7 +4,7 @@ const meta = {
     title: "Gasanalysator OXYBEAM",
     description: "Laser-Gasanalysator (O2 oder CO2) für zerstörungsfreie Stichproben von Verpackungen",
     keywords: "Gasanalysator, Laser-Gasanalysator, O2, CO2, zerstörungsfreie Stichproben,  Restsauerstoff, Restsauerstoffmessung, Restsauerstoffanalyse",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/d/0/csm_witt_gas_analyser_oxybeam_f79fba7e87.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_analyser_oxybeam_cd690c0ac7.png.webp",
     og_url: "https://mmw.industries/products/oxybeam",
 };
 
@@ -28,7 +28,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/d/0/csm_witt_gas_analyser_oxybeam_f79fba7e87.png"
+        "csm_witt_gas_analyser_oxybeam_cd690c0ac7.png.webp"
     ],
     datasheetLink: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybeam_d.pdf",
     youtubeVideo: "<iframe width=\"703\" height=\"396\" src=\"https://www.youtube.com/embed/9I9o_UBltso\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
@@ -53,7 +53,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/2/csm_gasanalysator_oxybeam_d_cd3d427117.png",
+            image: "csm_gasanalysator_oxybeam_d_7e696ff6c5.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasanalysator_oxybeam_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

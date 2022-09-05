@@ -4,7 +4,7 @@ const meta = {
     title: "Rückspülfilter",
     description: "Rückspüleinrichtung für Inline-Gasanalysatoren gegen verstopfte Filter im Gaseingang",
     keywords: "Rückspüleinrichtung, Inline, Gasanalyse, Filter",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/8/d/csm_WITT_back_purging_filter_front_e0ba5b116e.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_WITT_back_purging_filter_front_20e7da0340.jpg.webp",
     og_url: "https://mmw.industries/products/backwash-filter",
 };
 
@@ -25,8 +25,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/8/d/csm_WITT_back_purging_filter_front_e0ba5b116e.jpg",
-        "https://www.wittgas.com/fileadmin/_processed_/8/8/csm_WITT_back_purging_filter_back_c634895d0f.png"
+        "csm_WITT_back_purging_filter_front_20e7da0340.jpg.webp",
+        "csm_WITT_back_purging_filter_back_a6066311fb.png.webp"
     ],
     datasheetLink: "",
     // iframe link from youtube (embeeded share)
@@ -39,7 +39,7 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/5/c/csm_rueckspuelfilter_d_9b7f011c1f.png",
+            image: "csm_rueckspuelfilter_d_2f84fc3b9d.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/rueckspuelfilter_d.pdf",
             title: "Datenblatt",
             content: "Alle Technischen Informationen zu dem Produkt"

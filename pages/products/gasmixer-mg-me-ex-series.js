@@ -4,7 +4,7 @@ const meta = {
     title: "Gasmischer MG ME Ex Serie",
     description: "Gasmischer für 2 oder 3 brennbare Gase für hohe Verbräuche und stark schwankende Mischgas-Entnahmemengen",
     keywords: "",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/4/8/csm_witt_gas_mixer_mg_ex_eb38660f7c.png",
+    og_image: "https://www.mmw.industries/images/products/csm_witt_gas_mixer_mg_ex_240ba27e52.png.webp",
     og_url: "https://mmw.industries/products/gasmixer-mg-me-ex-series",
 };
 
@@ -28,8 +28,8 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/4/8/csm_witt_gas_mixer_mg_ex_eb38660f7c.png",
-        "https://www.wittgas.com/fileadmin/_processed_/7/e/csm_witt_gas_mixer_mg50-3me_ex_f6b42dc68c.png"
+        "csm_witt_gas_mixer_mg_ex_240ba27e52.png.webp",
+        "csm_witt_gas_mixer_mg50-3me_ex_d84d99eaa3.png.webp"
     ],
     datasheetLink: "",
     datasheetScrollToDownloads: true,
@@ -72,22 +72,48 @@ const data = {
     ],
     downloads: [
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/0/2/csm_gasmischer_mg50_100_2_3me_ex_d_f7a0eef487.png",
+            image: "csm_gasmischer_mg50_100_2_3me_ex_d_e84367c659.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg50_100_2_3me_ex_d.pdf",
             title: "Datenblatt MG 50/100 Me Ex",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/e/a/csm_gasmischer_mg200_2_3me_d_06dfbf5ea4.png",
+            image: "csm_gasmischer_mg200_2_3me_d_7106005135.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/data_sheets/german/gas_control/gasmischer_mg200_2_3me_d.pdf",
             title: "Datenblatt MG 200 Me Ex",
             content: "Alle Technischen Informationen zu dem Produkt"
         },
         {
-            image: "https://www.wittgas.com/fileadmin/_processed_/8/6/csm_Gasmischer_D_63720b3725.png",
+            image: "Broschuere_Gasmischer.png",
             link: "https://www.wittgas.com/fileadmin/user_upload/Dateien/brochures/german/Gasmischer_D.pdf",
             title: "Broschüre Gasmischer",
             content: ""
+        }
+    ],
+    accessories: [
+        {
+            image: "csm_witt_gas_pressure_receiver_steel_250l_2_bf4515c6c8.png.webp",
+            link: "https://www.mmw.industries/products/gas-tank",
+            title: "Gasbehälter",
+            content: "Druckbehälter für Mischgas aus Stahl oder Edelstahl"
+        },
+        {
+            image: "csm_witt_gas_analyser_mapy_unit_7720be133d.png.webp",
+            link: "https://www.mmw.industries/products/inline-analyser",
+            title: "Inline Gasanalysator",
+            content: "Einschubmodul zur permanenten Kontrolle des Gasgemisches für z.B. CO2, O2, H2, He"
+        },
+        {
+            image: "csm_witt_gas_mixer_switch_unit_5474c994f0.png.webp",
+            link: "https://www.mmw.industries/products/gasmixer-switch-station",
+            title: "Umschaltstation",
+            content: "Schalt- und Überwachungseinheit für die automatische Umschaltung von Gasmischern zur kontinuierlichen Gasentnahme"
+        },
+        {
+            image: "csm_witt_inlet_pressure_control_4021d8bc2d.png.webp",
+            link: "https://www.mmw.industries/products/gasmixer-switch-station",
+            title: "Eingangsdrucküberwachung mit Alarmmodul AM3",
+            content: "Zur permanenten Eingangsdrucküberwachung für optimale Qualität und Wirtschaftlichkeit in der Produktion"
         }
     ]
 };

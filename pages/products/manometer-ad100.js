@@ -4,7 +4,7 @@ const meta = {
     title: "Manometer AD100",
     description: "Kalibriertes Manometer für LEAK-MASTER® EASY",
     keywords: "Manometer, Kalibriert",
-    og_image: "https://www.wittgas.com/fileadmin/_processed_/7/8/csm_calibrated_manometer_AD100_e313a1a7e7.jpg",
+    og_image: "https://www.mmw.industries/images/products/csm_calibrated_manometer_AD100_5a9acf929d.jpg.webp",
     og_url: "https://mmw.industries/products/manometer-ad100",
 };
 
@@ -25,7 +25,7 @@ const data = {
         },
     ],
     productImages: [
-        "https://www.wittgas.com/fileadmin/_processed_/7/8/csm_calibrated_manometer_AD100_e313a1a7e7.jpg"
+        "csm_calibrated_manometer_AD100_5a9acf929d.jpg.webp"
     ],
     datasheetLink: "",
     // iframe link from youtube (embeeded share)

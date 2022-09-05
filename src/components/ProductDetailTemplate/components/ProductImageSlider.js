@@ -20,7 +20,7 @@ function ProductImageSlider({data}) {
                 <img
                     className="slider-dot-item"
                     style={{objectFit: 'contain'}}
-                    src={data.productImages[i]}
+                    src={"/images/products/" + data.productImages[i]}
                     width={75}
                     height={75}
                 />
@@ -35,7 +35,7 @@ function ProductImageSlider({data}) {
                         <img
                             key={image}
                             className="product-image"
-                            src={image}
+                            src={"/images/products/" + image}
                             width={450}
                             height={450}
                         />
