@@ -104,6 +104,9 @@ const Header = ({
                                     <Link href="/products">Produkte</Link>
                                 </li>
                                 <li className="nl-simple">
+                                    <Link href="/jobs">Jobs</Link>
+                                </li>
+                                <li className="nl-simple">
                                     <Link href="/contacts">Kontakt</Link>
                                 </li>
                                 {/* HEADER SOCIAL LINKS

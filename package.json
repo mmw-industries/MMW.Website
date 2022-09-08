@@ -5,7 +5,7 @@
   "scripts": {
     "build": "next build && next export -o build",
     "postbuild": "next-sitemap",
-    "start": "next dev"
+    "start": "next dev -H 10.33.76.102"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",

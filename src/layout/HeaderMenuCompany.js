@@ -35,23 +35,23 @@ function HeaderMenuCompany({mobileMenuToggle, toggleMenu}) {
                         className="d-flex flex-wrap"
                         style={{rowGap: 40}}
                     >
-                        <ul key="123123123"
-                            className="col-md-12 col-lg-4"
-                            style={{textAlign: 'left'}}
-                        >
-                            <h6>
-                                Information
-                            </h6>
-                            <li key="112321312423423423134"
-                                style={{paddingLeft: 5}}
-                            >
-                                <Link
-                                    href="#"
-                                >
-                                    Unser Team
-                                </Link>
-                            </li>
-                        </ul>
+                        {/*<ul key="123123123"*/}
+                        {/*    className="col-md-12 col-lg-4"*/}
+                        {/*    style={{textAlign: 'left'}}*/}
+                        {/*>*/}
+                        {/*    <h6>*/}
+                        {/*        Information*/}
+                        {/*    </h6>*/}
+                        {/*    <li key="112321312423423423134"*/}
+                        {/*        style={{paddingLeft: 5}}*/}
+                        {/*    >*/}
+                        {/*        <Link*/}
+                        {/*            href="#"*/}
+                        {/*        >*/}
+                        {/*            Unser Team*/}
+                        {/*        </Link>*/}
+                        {/*    </li>*/}
+                        {/*</ul>*/}
                         <ul key="123123123"
                             className="col-md-12 col-lg-4"
                             style={{textAlign: 'left'}}
@@ -78,14 +78,14 @@ function HeaderMenuCompany({mobileMenuToggle, toggleMenu}) {
                                 </Link>
                             </li>
                         </ul>
-                        <ul key="123123123"
-                            className="col-md-12 col-lg-4"
-                            style={{textAlign: 'left'}}
-                        >
-                            <h6>
-                                Partner
-                            </h6>
-                        </ul>
+                        {/*<ul key="123123123"*/}
+                        {/*    className="col-md-12 col-lg-4"*/}
+                        {/*    style={{textAlign: 'left'}}*/}
+                        {/*>*/}
+                        {/*    <h6>*/}
+                        {/*        Partner*/}
+                        {/*    </h6>*/}
+                        {/*</ul>*/}
                     </div>
                 </div>
             </div>
