@@ -31,3 +31,5 @@
 @import "css/responsive.css";
 @import "./custom.css";
 @import "./products.css";
+
+a {cursor:pointer;}
