@@ -58,17 +58,32 @@ function HeaderMenuProducts({mobileMenuToggle, toggleMenu}) {
                                                         {itemsGroup.header}
                                                     </h6>
                                                     {itemsGroup.items.map(item => {
-                                                        return (
-                                                            <li key={item.title}
-                                                                style={{paddingLeft: 5}}
-                                                            >
-                                                                <Link
-                                                                    href={item.link}
+                                                        if (item.isNew)
+                                                            return (
+                                                                <li key={item.title}
+                                                                    style={{paddingLeft: 5}}
                                                                 >
-                                                                    {item.title}
-                                                                </Link>
-                                                            </li>
-                                                        )
+                                                                    <Link
+                                                                        target={item.externalLink ? '_blank' : ''}
+                                                                        href={item.link || item.externalLink || ''}
+                                                                    >
+                                                                        {"NEU: " + item.title}
+                                                                    </Link>
+                                                                </li>
+                                                            );
+                                                        else
+                                                            return (
+                                                                <li key={item.title}
+                                                                    style={{paddingLeft: 5}}
+                                                                >
+                                                                    <Link
+                                                                        target={item.externalLink ? '_blank' : ''}
+                                                                        href={item.link || item.externalLink ||''}
+                                                                    >
+                                                                        {item.title}
+                                                                    </Link>
+                                                                </li>
+                                                            );
                                                     })}
                                                 </ul>
                                             )

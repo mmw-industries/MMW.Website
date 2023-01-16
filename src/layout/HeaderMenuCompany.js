@@ -1,6 +1,4 @@
 import Link from "next/link";
-import {Tab, TabList, TabPanel, Tabs} from "react-tabs";
-import {MenuProductsList} from '../pageComponents/products/MenuProductsList'
 
 function HeaderMenuCompany({mobileMenuToggle, toggleMenu}) {
     return (

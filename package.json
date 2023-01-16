@@ -1,11 +1,11 @@
 {
   "name": "MMW",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "build": "next build && next export -o build",
     "postbuild": "next-sitemap",
-    "start": "next dev -H 10.33.76.102"
+    "start": "next dev -H 192.168.178.99"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",

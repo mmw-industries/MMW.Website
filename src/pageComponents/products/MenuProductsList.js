@@ -157,6 +157,11 @@ export const MenuProductsList = [
                 header: "Protable / Tragbare",
                 items: [
                     {
+                        title: "AtmoLine Portable",
+                        externalLink: 'https://www.atmoline.at',
+                        isNew: true
+                    },
+                    {
                         title: "OXYBABY® 6.0",
                         link: '/products/oxybaby-6'
                     },
@@ -183,6 +188,16 @@ export const MenuProductsList = [
             {
                 header: "Tischgeräte",
                 items: [
+                    {
+                        title: "AtmoLine Premium",
+                        externalLink: 'https://www.atmoline.at',
+                        isNew: true
+                    },
+                    {
+                        title: "AtmoLine Easy",
+                        externalLink: 'https://www.atmoline.at',
+                        isNew: true
+                    },
                     {
                         title: "Mapy 4.0",
                         link: '/products/mapy-4'

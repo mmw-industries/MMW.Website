@@ -25,6 +25,13 @@ function Hero() {
                             </h3>
                             <ul className="simple-list pt-50 pb-50">
                                 <li>
+                                    <a href="https://www.atmoline.at" target="_blank">
+                                        <p className="p-lg m-1">
+                                            AtmoLine - Die Zukunft der MAP-Gasanalyse
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="/products/mapqs">
                                         <p className="p-lg m-1">
                                             MapQS - Die neue Dimension in der Qualitätssicherung

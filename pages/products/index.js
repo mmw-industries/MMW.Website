@@ -58,11 +58,12 @@ const Products = () => {
                                                         <li key={item.title}
                                                             style={{paddingLeft: 5}}
                                                         >
-                                                            <Link
-                                                                href={item.link}
+                                                            <a
+                                                                target={item.externalLink ? '_blank' : ''}
+                                                                href={ item.link ||item.externalLink}
                                                             >
                                                                 {item.title}
-                                                            </Link>
+                                                            </a>
                                                         </li>
                                                     )
                                                 })}
